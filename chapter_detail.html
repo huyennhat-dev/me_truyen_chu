@@ -1,0 +1,1889 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mê truyện </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel='stylesheet' href='./assets/css/swiper.min.css'>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
+
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/slider.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+
+</head>
+
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="grid wide">
+                <div class="header-container row pr-15 pl-15">
+                    <div class="header-menu-bar  col l-0 m-4 c-2">
+                        <a class="header-menu-bar__icon btn-modal-active">
+                            <i id="menu_btn" onclick="menu_btn()" class="ti-menu"></i>
+                        </a>
+                    </div>
+                    <div class="header-logo col l-3 m-4 c-8 ">
+                        <div class="header-logo-wrap">
+                            <a href="/" class="header-logo-link">
+                                <img src="./assets/images/logo-domain.png" alt="HTBakery" class="header-logo-link-img">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="header-menu  col l-6 m-0 c-0">
+                        <ul class="header-menu__list">
+                            <li class="header-menu__list-items">
+                                <a class="header-menu__list-items-link">Thể loại</a>
+                                <ul class="row header-submenu__list ">
+                                    <li class="col l-6 header-submenu__list-items ">
+                                        <a href="./category.html" class="header-submenu__list-items-link">Tất cả</a>
+                                    </li>
+                                    <li class="col l-6 header-submenu__list-items">
+                                        <a href="./category.html" class="header-submenu__list-items-link">Huyền Huyễn</a>
+                                    </li>
+                                    <li class="col l-6 header-submenu__list-items">
+                                        <a href="./category.html" class="header-submenu__list-items-link">Võng Du</a>
+                                    </li>
+                                    <li class="col l-6 header-submenu__list-items">
+                                        <a href="./category.html" class="header-submenu__list-items-link">Đồng Nhân</a>
+                                    </li>
+                                    <li class="col l-6 header-submenu__list-items">
+                                        <a href="./category.html" class="header-submenu__list-items-link">Cạnh Kỹ</a>
+                                    </li>
+                                    <li class="col l-6 header-submenu__list-items">
+                                        <a href="./category.html" class="header-submenu__list-items-link">Kiếm Hiệp</a>
+                                    </li>
+                                    <li class="col l-6 header-submenu__list-items">
+                                        <a href="./category.html" class="header-submenu__list-items-link">Tiên Hiệp</a>
+                                    </li>
+                                    <li class="col l-6 header-submenu__list-items">
+                                        <a href="./category.html" class="header-submenu__list-items-link">Khoa Huyễn</a>
+                                    </li>
+                                    <li class="col l-6 header-submenu__list-items">
+                                        <a href="./category.html" class="header-submenu__list-items-link">Đô Thị</a>
+                                    </li>
+                                    <li class="col l-6 header-submenu__list-items">
+                                        <a href="./category.html" class="header-submenu__list-items-link">Lịch Sử</a>
+                                    </li>
+                                    <li class="col l-6 header-submenu__list-items">
+                                        <a href="./category.html" class="header-submenu__list-items-link">Huyền Nghi</a>
+                                    </li>
+                                    <li class="col l-6 header-submenu__list-items">
+                                        <a href="./category.html" class="header-submenu__list-items-link">Kì Ảo</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="header-menu__list-items">
+                                <a class="header-menu__list-items-link">Bảng xếp hạng</a>
+                                <ul class="row header-submenu__list ">
+                                    <li class="col l-12 header-submenu__list-items ">
+                                        <a href="./category.html" class="header-submenu__list-items-link">Tất cả</a>
+                                    </li>
+                                    <li class="col l-12 header-submenu__list-items">
+                                        <a href="./category.html" class="header-submenu__list-items-link">Huyền Huyễn</a>
+                                    </li>
+                                    <li class="col l-12 header-submenu__list-items">
+                                        <a href="./category.html" class="header-submenu__list-items-link">Võng Du</a>
+                                    </li>
+                                    <li class="col l-12 header-submenu__list-items">
+                                        <a href="./category.html" class="header-submenu__list-items-link">Đồng Nhân</a>
+                                    </li>
+                                    <li class="col l-12 header-submenu__list-items">
+                                        <a href="./category.html" class="header-submenu__list-items-link">Cạnh Kỹ</a>
+                                    </li>
+                                    <li class="col l-12 header-submenu__list-items">
+                                        <a href="./category.html" class="header-submenu__list-items-link">Kiếm Hiệp</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="header-menu__list-items">
+                                <a href="./news.html" class="header-menu__list-items-link">Tủ truyện</a>
+                            </li>
+                            <li class="header-menu__list-items">
+                                <a href="./contact.html" class="header-menu__list-items-link">Đăng truyện</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="header-group-btn  col l-3 m-4 c-2">
+                        <ul class="header-group-btn__list ">
+                            <li id="cl1" onclick="search_btn();" class="header-group-btn__list-items">
+                                <div class="header-group-btn__list-items-link header-group-btn__list-items-search btn-modal-active">
+                                    <i id="search_icon_x" class="header-group-btn__list-items-link-icon ti-search"></i>
+                                </div>
+                            </li>
+                            <li class="header-group-btn__list-items">
+                                <a class="header-group-btn__list-items-link header-group-btn__list-items-auth btn-modal-active">
+                                    <i class="header-group-btn__list-items-link-icon ti-user"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="header_search" class="header-search col l-12 m-12 c-12">
+                        <div class="header-search_group">
+                            <form action="">
+                                <input type="text" name="" id="" placeholder="Tìm kiếm...">
+                                <button type="submit"><i class="ti-search"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main" style="background: url('./assets/images/home-bg.jpg') no-repeat;">
+            <div class="grid wide">
+                <div class="container row mb-20 br-5">
+                    <div class="chapter_detail-content col l-11 m-12 c-12 bg-chapter br-5 pt-25 pb-25 pl-50 pr-50">
+                        <div class="row mb-4 ">
+                            <div class="col l-3 m-5 c-6">
+                                <a href="" class="d-block">
+                                    <div class="chapter_prev bg-yelow-while br-5 pt-15 pb-15 pr-15 pl-15 text-center fz-16 fw-500 lh-15">
+                                        <i class="ti-arrow-left fw-600"></i> Chương trước
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-6 m-2 c-0"></div>
+                            <div class="col l-3 m-5 c-6 ">
+                                <a href="" class="d-block">
+                                    <div class="chapter_next bg-yelow-while br-5 pt-15 pb-15 pr-15 pl-15 text-center fz-16 fw-500 lh-15">
+                                        Chương sau <i class="ti-arrow-right fw-600"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row  border-bottom-black-color ">
+                            <div class="col l-12 mb-3 mt-3">
+                                <div class="fw-500 fz-20 lh-15x">Chương 1: Vân Châu Bạch Gia</div>
+                            </div>
+                            <div class="col l-12 d-flex mb-3">
+                                <div class="row ml-2">
+                                    <div class="fz-14 fw-400 lh-14x mr-4">
+                                        <i class="ti-agenda"></i> Bất Tử Ta Thật Sự Là Quá Mạnh
+                                    </div>
+                                    <div class="fz-14 fw-400 lh-14x">
+                                        <i class="ti-timer"> </i> 2021-06-14 21:45:33
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-20 border-bottom-black-color pb-25">
+                            <div class="col l-12">
+                                <div class="fz-15 fw-500 lh-14x">
+                                    <p>C&ocirc;ng nguy&ecirc;n năm 2121, tận thế.<br />
+                                        <br /> Khu vực, khu A dưỡng thi trường.<br />
+                                        <br /> Mạc Th&iacute;ch mang theo khẩu trang.<br />
+                                        <br /> Một tay cầm x&agrave; beng, một tay bưng m&oacute;n ăn.<br />
+                                        <br /> Dọc theo lối đi nhỏ chậm r&atilde;i đi qua.<br />
+                                        <br /> Trong m&acirc;m l&agrave; ba khối lớn chừng b&agrave;n tay mới mẻ thịt heo.<br />
+                                        <br /> Ở c&aacute;i n&agrave;y mỗi người mỗi ng&agrave;y, chỉ c&oacute; thể định lượng nhận lấy ba c&aacute;i b&aacute;nh bao, ba b&aacute;t b&aacute;t ch&aacute;o thời đại.<br />
+                                        <br /> Thịt heo tuyệt đối xem như xa xỉ đồ ăn.<br />
+                                        <br /> Mạc Th&iacute;ch đi v&agrave;o lối đi nhỏ cuối c&ugrave;ng.<br />
+                                        <br /> Liền nghe đến trong ph&ograve;ng, đ&atilde; truyền đến hưng phấn tiếng g&agrave;o th&eacute;t.<br />
+                                        <br /> &quot;Rống _ _ _ ngao rống _ _ _ &quot;<br />
+                                        <br /> Đồng thời nương theo lấy xiềng x&iacute;ch soạt &acirc;m thanh.<br />
+                                        <br /> Từ tr&ecirc;n cửa thuỷ tinh hữu cơ ph&iacute;a tr&ecirc;n đi đến nh&igrave;n qua.<br />
+                                        <br /> Chỉ thấy người b&ecirc;n trong, bị tỏa li&ecirc;n bu&ocirc;̣c đ&ecirc;́n rắn rắn chắc chắc.<br />
+                                        <br /> Hắn l&uacute;c n&agrave;y mới mở cửa sắt ra, bưng lấy thịt tươi đi v&agrave;o.<br />
+                                        <br /> Đồng thời d&ugrave;ng một c&aacute;i x&agrave; beng kh&aacute;c ở cửa, ph&ograve;ng ngừa bị gi&oacute; đ&oacute;ng lại.<br />
+                                        <br /> Trong ph&ograve;ng, bị x&iacute;ch sắt c&aacute;i chốt lấy, l&agrave; một c&aacute;i Zombies.<br />
+                                        <br /> Zombies c&aacute;nh tay tr&aacute;i đ&atilde; chặt đứt.<br />
+                                        <br /> Tr&ecirc;n đầu gối da thịt bị g&atilde;y mất xương đ&ugrave;i đ&acirc;m thủng, một đoạn trắng bệch xương đ&ugrave;i lộ ở b&ecirc;n ngo&agrave;i.<br />
+                                        <br /> C&aacute;i mũi sớm đ&atilde; kh&ocirc;ng tại, thay v&agrave;o đ&oacute; l&agrave; một c&aacute;i kinh khủng huyết động.<br />
+                                        <br /> Nửa b&ecirc;n mặt đều đ&atilde; m&aacute;u thịt be b&eacute;t.<br />
+                                        <br /> N&oacute; gặp Mạc Th&iacute;ch tiến đến, nhất thời c&agrave;ng th&ecirc;m hưng phấn.<br />
+                                        <br /> X&aacute;m trắng trong hai mắt, đều l&agrave; kh&aacute;t m&aacute;u quang mang.<br />
+                                        <br /> &quot;Ngao rống _ _ _ &quot;<br />
+                                        <br /> Trong cổ họng n&oacute; ph&aacute;t ra một tiếng như d&atilde; th&uacute; g&agrave;o r&uacute;, liền hướng Mạc Th&iacute;ch đ&aacute;nh tới.<br />
+                                        <br /> Soạt _ _ _<br />
+                                        <br /> X&iacute;ch sắt nhất thời bị thẳng băng.<br />
+                                        <br /> Mạc Th&iacute;ch v&ocirc; &yacute; thức lui lại một bước.<br />
+                                        <br /> Chờ gi&acirc;y l&aacute;t.<br />
+                                        <br /> Zombies đập chẳng phải hung m&atilde;nh, hắn mới hơi c&oacute; ch&uacute;t kh&ocirc;ng th&ocirc;i, đem trong m&acirc;m mới mẻ thịt heo n&eacute;m cho Zombies.<br />
+                                        <br /> Zombies phốc Mạc Th&iacute;ch kh&ocirc;ng c&oacute; kết quả, lại g&agrave;o r&uacute; v&agrave;i tiếng.<br />
+                                        <br /> L&uacute;c n&agrave;y mới nằm s&aacute;t xuống đất, nắm l&ecirc;n thịt như l&agrave; d&atilde; th&uacute; cắn x&eacute;.<br />
+                                        <br /> Ăn đến đầy miệng đầy ngực miệng đều l&agrave; m&aacute;u tươi.<br />
+                                        <br /> Mạc Th&iacute;ch kh&ocirc;ng khỏi nuốt ngụm nước miếng, lắc đầu n&oacute;i một c&acirc;u:<br />
+                                        <br /> &quot;Phung ph&iacute; của trời a.&quot;<br />
+                                        <br /> Vượt qua đến tận thế đ&atilde; hơn ba th&aacute;ng.<br />
+                                        <br /> Mỗi ng&agrave;y được ph&aacute;i tới nu&ocirc;i nấng những th&iacute; nghiệm n&agrave;y d&ugrave;ng Zombies.<br />
+                                        <br /> Cho Zombies đưa thịt, ch&iacute;nh m&igrave;nh lại một miệng cũng kh&ocirc;ng kịp ăn.<br />
+                                        <br /> Người sống đ&ecirc;́n c&ograve;n kh&ocirc;ng bằng Zombies.<br />
+                                        <br /> Theo gian ph&ograve;ng lui đi ra, quăng ra x&agrave; beng, đ&oacute;ng cửa ph&ograve;ng.<br />
+                                        <br /> Đến đ&oacute;n lấy liền n&ecirc;n đi nu&ocirc;i heo.<br />
+                                        <br /> Tại dưỡng thi trường, hắn c&ocirc;ng việc h&agrave;ng ng&agrave;y, ch&iacute;nh l&agrave; cho heo ăn, sau đ&oacute; d&ugrave;ng thịt heo nu&ocirc;i nấng Zombies.<br />
+                                        <br /> Đ&acirc;y l&agrave; trong cả trụ sở lớn nhất kh&ocirc;ng c&oacute; kỹ thuật h&agrave;m lượng, tầm thường nhất c&ocirc;ng t&aacute;c.<br />
+                                        <br /> Bất qu&aacute; Mạc Th&iacute;ch cũng rất thản nhi&ecirc;n.<br />
+                                        <br /> Ở căn cứ b&ecirc;n trong chăn heo dưỡng Zombies, d&ugrave; sao cũng so bị ph&aacute;i đi b&ecirc;n ngo&agrave;i bắt Zombies mạnh.<br />
+                                        <br /> Những c&aacute;i kia bắt thi c&aacute;c đội vi&ecirc;n xem ra phong cảnh, bị người s&ugrave;ng b&aacute;i.<br />
+                                        <br /> Nhưng kh&ocirc;ng cẩn thận mệnh cũng bị mất.<br />
+                                        <br /> Tại tận thế, c&ograve;n sống mới l&agrave; vương đạo.<br />
+                                        <br /> Cho ăn xong heo, Mạc Th&iacute;ch chậm r&atilde;i tản bộ ra dưỡng thi trường.<br />
+                                        <br /> C&ocirc;ng t&aacute;c của hắn tuy nhi&ecirc;n bị người xem thường, nhưng chỗ tốt l&agrave; thời gian nh&agrave;n hạ có th&ecirc;̉ nhiều một ch&uacute;t.<br />
+                                        <br /> Hắn c&oacute; thời gian liền sẽ đi c&aacute;c nơi tản bộ giải sầu.<br />
+                                        <br /> Ra dưỡng thi trường, rẽ phải 500 m&eacute;t, ch&iacute;nh l&agrave; ph&ograve;ng th&iacute; nghiệm.</p>
+
+                                    <p><small><small>&mdash; QUẢNG C&Aacute;O &mdash;</small></small>
+                                    </p>
+
+                                    <p><br />
+                                        <br /> Ngay tại Mạc Th&iacute;ch tản bộ đến ph&ograve;ng th&iacute; nghiệm cửa ch&iacute;nh l&uacute;c, một thanh &acirc;m th&igrave;nh l&igrave;nh ở trong đầu hắn vang l&ecirc;n.<br />
+                                        <br /> 【 k&iacute; chủ vượt qua 100 ng&agrave;y, đ&aacute;nh dấu hệ thống k&iacute;ch hoạt. Hiện tại c&oacute; thể đ&aacute;nh dấu. 】<br />
+                                        <br /> Mạc Th&iacute;ch nhất thời k&iacute;ch động l&ecirc;n.<br />
+                                        <br /> Vượt qua 100 ng&agrave;y, ng&oacute;n tay v&agrave;ng c&oacute; thể t&iacute;nh tới sổ.<br />
+                                        <br /> Hắn l&uacute;c n&agrave;y trong đầu nếm thử n&oacute;i ra:<br />
+                                        <br /> &quot;Hệ thống, đ&aacute;nh dấu.&quot;<br />
+                                        <br /> Hệ thống thanh &acirc;m truyền đến:<br />
+                                        <br /> 【 đ&aacute;nh dấu th&agrave;nh c&ocirc;ng. 】<br />
+                                        <br /> 【 đ&aacute;nh dấu địa điểm: Ph&ograve;ng th&iacute; nghiệm. 】<br />
+                                        <br /> 【 đ&aacute;nh dấu khen thưởng: Titan Cự Long Gien Cường H&oacute;a Tề 1 chi. 】<br />
+                                        <br /> Sau một khắc, trong &oacute;c hắn, liền xuất hiện một c&aacute;i c&ugrave;ng loại tr&ograve; chơi ba l&ocirc; một dạng đồ vật biểu hiện cột.<br />
+                                        <br /> Rất hiển nhi&ecirc;n, đ&acirc;y cũng l&agrave; hệ thống bổ sung ba l&ocirc;.<br />
+                                        <br /> Hệ thống ba l&ocirc; đệ nhất c&aacute;ch, đ&atilde; cất giữ một c&aacute;i ống ch&iacute;ch.<br />
+                                        <br /> Ống ch&iacute;ch ho&aacute; trang một chi m&agrave;u xanh biếc dược tề.<br />
+                                        <br /> L&agrave;m hắn chuy&ecirc;n ch&uacute; đi xem c&aacute;i kia dược tề l&uacute;c, dược tề ph&iacute;a tr&ecirc;n biểu hiện hai h&agrave;ng chữ viết:<br />
+                                        <br /> 【 Titan Cự Long Gien Cường H&oacute;a Tề: Ti&ecirc;m v&agrave;o về sau, nắm giữ Titan Cự Long gien, cũng tăng l&ecirc;n tr&ecirc;n diện rộng lực lượng. 】<br />
+                                        <br /> 【 lần đầu ti&ecirc;m v&agrave;o, có th&ecirc;̉ giải kh&oacute;a Titan Long Trảo. 】<br />
+                                        <br /> Mạc Th&iacute;ch v&ocirc; &yacute; thức hướng bốn ph&iacute;a nh&igrave;n một ch&uacute;t.<br />
+                                        <br /> Sau đ&oacute; bước nhanh trở lại dưỡng thi trường, tiến v&agrave;o gian ph&ograve;ng của m&igrave;nh, đ&oacute;ng cửa ph&ograve;ng.<br />
+                                        <br /> Hơi chuyển động &yacute; nghĩ một ch&uacute;t, chi kia Titan Cự Long Gien Cường H&oacute;a Tề, liền xuất hiện tại trong tay.<br />
+                                        <br /> Nh&igrave;n trong tay c&aacute;i kia m&agrave;u xanh biếc dược tề.<br />
+                                        <br /> Hắn liếm m&ocirc;i một c&aacute;i, cưỡng chế hưng phấn trong l&ograve;ng.<br />
+                                        <br /> Đợi hai tay kh&ocirc;ng lại bởi v&igrave; k&iacute;ch động m&agrave; run rẩy l&uacute;c, l&uacute;c n&agrave;y mới nắm chặt quyền tr&aacute;i.<br />
+                                        <br /> Phải tay nắm chặt thương thức ống ch&iacute;ch, đến tại tr&ecirc;n c&aacute;nh tay tr&aacute;i.<br />
+                                        <br /> Ng&oacute;n trỏ tay phải hướng hơi d&ugrave;ng lực một ch&uacute;t, bắt đầu ti&ecirc;m v&agrave;o.<br />
+                                        <br /> Chỉ cảm thấy một cỗ đau như bị kim ch&acirc;m đau truyền đến.<br />
+                                        <br /> Rất nhanh, ti&ecirc;m v&agrave;o ho&agrave;n tất.<br />
+                                        <br /> Ngay một khắc n&agrave;y, Mạc Th&iacute;ch trong &oacute;c, chợt hiện dị tượng.<br />
+                                        <br /> Chỉ thấy một c&aacute;i v&agrave;i trăm m&eacute;t lớn l&ecirc;n Cự Long hư ảnh.<br />
+                                        <br /> Ch&iacute;nh đập lấy c&aacute;nh khổng lồ, từ kh&ocirc;ng trung lướt qua.<br />
+                                        <br /> &quot;Ngao _ _ _ rống _ _ _ _ _ _ _ _ _ &quot;<br />
+                                        <br /> Một tiếng k&eacute;o d&agrave;i lại tr&agrave;n ngập uy &aacute;p tiếng long ng&acirc;m vang l&ecirc;n.<br />
+                                        <br /> Tr&ecirc;n mặt đất, b&aacute;ch th&uacute; sợ h&atilde;i, nằm rạp tr&ecirc;n mặt đất.<br />
+                                        <br /> C&aacute;i n&agrave;y Cự Long, mặc d&ugrave; chỉ l&agrave; hư ảnh, lại tr&agrave;n đầy dồi d&agrave;o b&aacute; kh&iacute; long uy.<br />
+                                        <br /> Mạc Th&iacute;ch bị chấn động đến nửa ng&agrave;y đều chưa tỉnh hồn lại.<br />
+                                        <br /> C&aacute;i kia Cự Long hư ảnh tại b&ecirc;n tr&ecirc;n bầu trời, xoay quanh ba v&ograve;ng.<br />
+                                        <br /> Sau đ&oacute; trực tiếp hướng về Mạc Th&iacute;ch lao xuống.<br />
+                                        <br /> Mạc Th&iacute;ch thấy thế, chợt cảm thấy tay ch&acirc;n lạnh buốt.<br />
+                                        <br /> Muốn quay người đ&agrave;o tẩu.<br />
+                                        <br /> Lại ph&aacute;t hiện m&igrave;nh tựa hồ bị một loại n&agrave;o đ&oacute; thần b&iacute; lực lượng giam cầm, kh&ocirc;ng thể nh&uacute;c nh&iacute;ch.<br />
+                                        <br /> H&ocirc; _ _ _ _ _ _ _ _ _<br />
+                                        <br /> C&aacute;i kia Cự Long hư ảnh, &ocirc;m theo cuồng bạo v&ocirc; c&ugrave;ng uy thế, tự bầu trời lướt xuống.<br />
+                                        <br /> Giống như một đ&aacute;m m&acirc;y đen, bao phủ Mạc Th&iacute;ch.<br />
+                                        <br /> N&oacute; miệng lớn mở ra, đột nhi&ecirc;n hướng Mạc Th&iacute;ch nuốt tới.<br />
+                                        <br /> Mạc Th&iacute;ch chợt cảm thấy mắt tối sầm lại.<br />
+                                        <br /> Sau một khắc, hắn hoảng sợ mở mắt.<br />
+                                        <br /> L&uacute;c n&agrave;y mới ph&aacute;t hiện, nguy&ecirc;n lai đ&acirc;y chẳng qua l&agrave; trong &oacute;c dị tượng.<br />
+                                        <br /> Nhưng d&ugrave; vậy, hắn từ l&acirc;u tay ch&acirc;n lạnh buốt.<br />
+                                        <br /> Loại kia cảm gi&aacute;c, thật sự l&agrave; thật đ&aacute;ng sợ.<br />
+                                        <br /> Ti&ecirc;m v&agrave;o một thuốc thuốc ch&iacute;ch m&agrave; th&ocirc;i, th&igrave; l&agrave;m đến như thế dọa người.<br />
+                                        <br /> Về sau c&ograve;n d&aacute;m hay kh&ocirc;ng lại ti&ecirc;m v&agrave;o?<br />
+                                        <br /> L&uacute;c n&agrave;y, th&acirc;n thể của hắn bắt đầu ph&aacute;t nhiệt.<br />
+                                        <br /> Dần dần, c&agrave;ng ng&agrave;y c&agrave;ng n&oacute;ng.<br />
+                                        <br /> Nương theo lấy nhiệt độ cơ thể l&ecirc;n cao, hắn đối ch&iacute;nh m&igrave;nh th&acirc;n thể cảm gi&aacute;c cũng c&agrave;ng ng&agrave;y c&agrave;ng nhạy cảm.<br />
+                                        <br /> Hắn tựa hồ c&oacute; thể cảm gi&aacute;c được thể nội tất cả mạch m&aacute;u, thần kinh, c&ugrave;ng mỗi một tế b&agrave;o.<br />
+                                        <br /> Hắn có th&ecirc;̉ r&otilde; r&agrave;ng cảm gi&aacute;c được dược tề dọc theo của hắn huyết quản, hướng chảy to&agrave;n th&acirc;n.<br />
+                                        <br /> Cuối c&ugrave;ng t&aacute;c dụng tại mỗi một tế b&agrave;o ph&iacute;a tr&ecirc;n.<br />
+                                        <br /> Những thứ n&agrave;y tế b&agrave;o tựa hồ nhận lấy m&atilde;nh liệt k&iacute;ch th&iacute;ch, nhanh ch&oacute;ng sinh động.<br />
+                                        <br /> Mỗi một tế b&agrave;o đều tr&agrave;n đầy sức sống.<br />
+                                        <br /> Ngắn ngủi năm ph&uacute;t đồng hồ, hắn cũng cảm gi&aacute;c được trong cơ thể của m&igrave;nh, tựa hồ c&oacute; s&ocirc;i tr&agrave;o m&atilde;nh liệt lực lượng.<br />
+                                        <br /> Loại n&agrave;y lực lượng tr&agrave;n đầy cảm gi&aacute;c, để hắn nhịn kh&ocirc;ng được vung mạnh nhất quyền.<br />
+                                        <br /> Nhưng kh&ocirc;ng ngờ một quyền n&agrave;y, treo ở b&ecirc;n cạnh giường tr&ecirc;n kệ.<br />
+                                        <br /> Bành!
+                                        <br />
+                                        <br /> Một tiếng vang thật lớn, c&aacute;i kia đầu giường ph&iacute;a tr&ecirc;n ống th&eacute;p, lại bị hắn nện cong mấy phần.<br />
+                                        <br /> Mạc Th&iacute;ch nhất thời mở to hai mắt nh&igrave;n.<br />
+                                        <br /> Nhất quyền đem gi&aacute; đỡ tr&ecirc;n giường đường k&iacute;nh ba cm ống th&eacute;p nện chỗ ngoặt, c&aacute;i n&agrave;y cỡ n&agrave;o đại lực lượng?<br />
+                                        <br /> Thu hồi quyền đầu, tr&ecirc;n nắm tay thậm ch&iacute; ngay cả nửa điểm trầy da cũng kh&ocirc;ng c&oacute;.<br />
+                                        <br /> &quot;&Ograve;m ọp.&quot;<br />
+                                        <br /> Nuốt nước miếng một c&aacute;i.<br />
+                                        <br /> Mạc Th&iacute;ch th&ocirc;ng qua m&agrave;n cửa, hướng ngo&agrave;i cửa sổ nh&igrave;n tho&aacute;ng qua.<br />
+                                        <br /> Cũng kh&ocirc;ng c&oacute; người n&agrave;o ch&uacute; &yacute; tới vừa mới tiếng vang.<br />
+                                        <br /> Hắn quay đầu lại.<br />
+                                        <br /> Một tay án l&acirc;́y ống th&eacute;p, tay kia bắt lấy bị ch&iacute;nh m&igrave;nh nện chỗ ngoặt địa phương, bỗng nhi&ecirc;n vịn lại.<br />
+                                        <br /> K&eacute;t _ _ _<br />
+                                        <br /> Một tiếng vang nhỏ, ống th&eacute;p v&acirc;̣y mà lại bị hắn vặn trở về.<br />
+                                        <br /> Mạc Th&iacute;ch trong l&ograve;ng kinh th&aacute;n.<br />
+                                        <br /> Titan Cự Long Gien Cường H&oacute;a Tề, đối lực lượng tăng ph&uacute;c thực sự khủng bố!<br />
+                                        <br /> M&agrave; ngay tại l&uacute;c n&agrave;y, c&aacute;nh tay phải của hắn, lần nữa biến đến lửa n&oacute;ng.<br />
+                                        <br /> Đưa tay nh&igrave;n qua.<br />
+                                        <br /> Chỉ thấy c&aacute;nh tay phải vậy m&agrave; tại nhanh ch&oacute;ng ph&aacute;t sinh biến h&oacute;a.<br />
+                                        <br /> Th&acirc;n thể của hắn hơi gầy, c&aacute;nh tay vốn l&agrave; hơi c&oacute; ch&uacute;t gầy.<br />
+                                        <br /> Nhưng l&uacute;c n&agrave;y vậy m&agrave; tại nhanh ch&oacute;ng biến lớn.<br />
+                                        <br /> Sau một khắc.<br />
+                                        <br /> T&ecirc; lạp _ _ _<br />
+                                        <br /> Hắn to&agrave;n bộ tay &aacute;o lại bị nứt vỡ.<br />
+                                        <br /> Rất nhanh, c&aacute;nh tay phải đ&atilde; tăng tới trước kia gấp ba.<br />
+                                        <br /> Đồng thời, nguy&ecirc;n lai mềm mại da thịt, bắt đầu biến đến cứng rắn.<br />
+                                        <br /> Dần dần, c&aacute;i kia cứng rắn da ph&iacute;a tr&ecirc;n, v&acirc;̣y mà hiện ra m&agrave;u đen, giống x&agrave; một dạng l&acirc;n phiến tới.<br />
+                                        <br /> Mỗi một khối l&acirc;n phiến đều c&oacute; lớn chừng bằng m&oacute;ng tay, tản ra m&agrave;u đen như kim loại lộng lẫy.<br />
+                                        <br /> M&agrave; tay phải của hắn, l&uacute;c n&agrave;y cũng kh&ocirc;ng c&ograve;n l&agrave; nh&acirc;n loại c&aacute;nh tay.<br />
+                                        <br /> M&agrave; ch&iacute;nh l&agrave; giống long trảo đồng dạng tr&aacute;ng kiện mạnh mẽ.<br />
+                                        <br /> Đầu ng&oacute;n tay của hắn, th&igrave; cấp tốc th&agrave;nh d&agrave;i, uốn lượn c&ograve;n c&oacute; lực.<br />
+                                        <br /> C&oacute; ch&uacute;t giống ưng trảo.<br />
+                                        <br /> Nhưng so ưng trảo c&agrave;ng th&ecirc;m tr&aacute;ng kiện, c&agrave;ng th&ecirc;m sắc nhọn.<br />
+                                        <br /> &quot;Đ&acirc;y l&agrave;. . .&quot;<br />
+                                        <br /> Mạc Th&iacute;ch kinh h&atilde;i m&agrave; nh&igrave;n m&igrave;nh c&aacute;nh tay phải.<br />
+                                        <br /> Đột nhi&ecirc;n hồi tưởng lại vừa mới trong &oacute;c xuất hiện Cự Long hư ảnh.<br />
+                                        <br /> &quot;Long trảo! ! !&quot;<br />
+                                        <br /> Hắn kh&oacute; c&oacute; thể tin hoảng sợ n&oacute;i!<br />
+                                        <br /> Chẳng lẽ n&oacute;i tr&ecirc;n đời n&agrave;y thật sự c&oacute; như thế Titan Cự Long?<br />
+                                        <br /> Lấy lại tinh thần về sau, hắn trong hai mắt, đều l&agrave; hưng phấn.</p>
+
+                                    <p><small><small>&mdash; QUẢNG C&Aacute;O &mdash;</small></small>
+                                    </p>
+
+                                    <p><br />
+                                        <br /> Hưng phấn đến cổ đều đỏ, mặt đều l&agrave; n&oacute;ng.<br />
+                                        <br /> &quot;&Ograve;m ọp.&quot;<br />
+                                        <br /> Hắn nuốt nước miếng một c&aacute;i.<br />
+                                        <br /> Hận kh&ocirc;ng thể tại chỗ thử một ch&uacute;t c&aacute;i n&agrave;y long trảo uy lực.<br />
+                                        <br /> Bất qu&aacute; suy nghĩ một ch&uacute;t, nếu l&agrave; bị người biết m&igrave;nh c&aacute;nh tay phải lại l&agrave; long trảo.<br />
+                                        <br /> L&uacute;c đ&oacute; dẫn ph&aacute;t hậu quả g&igrave;?<br />
+                                        <br /> Kh&ocirc;ng d&aacute;m tưởng tượng.<br />
+                                        <br /> Ngay tại hắn nghĩ như vậy l&uacute;c, tr&ecirc;n c&aacute;nh tay phải vảy m&agrave;u đen, chậm r&atilde;i chui v&agrave;o da.<br />
+                                        <br /> C&aacute;nh tay cũng bắt đầu kh&ocirc;i phục nh&acirc;n loại d&aacute;ng vẻ.<br />
+                                        <br /> M&oacute;ng tay nhanh ch&oacute;ng biến ngắn, biến thẳng.<br />
+                                        <br /> Tay phải cũng ho&agrave;n to&agrave;n kh&ocirc;i phục được b&igrave;nh thường bộ d&aacute;ng.<br />
+                                        <br /> &quot;H&ocirc; _ _ _ &quot;<br />
+                                        <br /> Mạc Th&iacute;ch thở ph&agrave;o một c&aacute;i.<br />
+                                        <br /> Nh&igrave;n lấy tay phải của m&igrave;nh, hắn hưng phấn trong l&ograve;ng kh&ocirc;ng th&ocirc;i.<br />
+                                        <br /> Bất qu&aacute; khi hắn nh&igrave;n tới tr&ecirc;n mặt đất một chỗ vải r&aacute;ch mảnh về sau, lại cười khổ một tiếng.<br />
+                                        <br /> &quot;C&aacute;i n&agrave;y Titan Long Trảo v&ecirc;nh v&aacute;o l&agrave; v&ecirc;nh v&aacute;o, cũng l&agrave; ph&iacute; tay &aacute;o.&quot;<br />
+                                        <br /> Xem ra sau n&agrave;y được nhiều chuẩn bị mấy bộ y phục.<br />
+                                        <br /> Thu hoạch được Titan Long Trảo về sau, hắn hưng phấn trọn vẹn hơn một giờ.<br />
+                                        <br /> Hơn một giờ về sau, hắn rốt cục cưỡng chế k&iacute;ch động trong l&ograve;ng.<br />
+                                        <br /> Việc n&agrave;y tuyệt kh&ocirc;ng thể khiến người kh&aacute;c biết.<br />
+                                        <br /> Ch&iacute;nh m&igrave;nh h&ocirc;m qua vẫn chỉ l&agrave; người b&igrave;nh thường, h&ocirc;m nay liền đạt được như kỳ ngộ n&agrave;y.<br />
+                                        <br /> C&aacute;i n&agrave;y nếu như bị hắn người kh&aacute;c biết, rất c&oacute; thể sẽ đưa tới đại phiền to&aacute;i.<br />
+                                        <br /> . . .<br />
+                                        <br /> Đến đ&oacute;n lấy lần n&agrave;y buổi trưa, Mạc Th&iacute;ch giống thường ng&agrave;y cho heo ăn cho ăn Zombies.<br />
+                                        <br /> Cũng kh&ocirc;ng c&oacute; biểu hiện ra c&aacute;i g&igrave; dị dạng.<br />
+                                        <br /> Chỉ bất qu&aacute; trong &oacute;c hắn, thỉnh thoảng sẽ hồi tưởng lại trước đ&oacute; nh&igrave;n đến &yacute; tưởng.<br />
+                                        <br /> Đầu kia Cự Long, c&ograve;n c&oacute; c&aacute;i kia tr&agrave;n ngập cảm gi&aacute;c &aacute;p b&aacute;ch tiếng long ng&acirc;m.<br />
+                                        <br /> . . .<br />
+                                        <br /> S&aacute;ng sớm h&ocirc;m sau, vừa mới mở mắt ra, Mạc Th&iacute;ch liền tr&agrave;n đầy chờ mong muốn đ&aacute;nh dấu.<br />
+                                        <br /> Bất qu&aacute; đ&aacute;nh dấu l&agrave; c&oacute; địa điểm kh&aacute;c biệt.<br />
+                                        <br /> Hắn nghĩ nghĩ, l&uacute;c n&agrave;y đứng dậy.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-50 mb-3">
+                            <div class="col l-3 m-5 c-6">
+                                <a href="" class="d-block">
+                                    <div class="chapter_prev bg-yelow-while br-5 pt-15 pb-15 pr-15 pl-15 text-center fz-16 fw-500 lh-15">
+                                        <i class="ti-arrow-left fw-600"></i> Chương trước
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-6 m-2 c-0"></div>
+                            <div class="col l-3 m-5 c-6 ">
+                                <a href="" class="d-block">
+                                    <div class="chapter_next bg-yelow-while br-5 pt-15 pb-15 pr-15 pl-15 text-center fz-16 fw-500 lh-15">
+                                        Chương sau <i class="ti-arrow-right fw-600"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row mt-50">
+                            <div class="col l-12 pl-15 pr-15">
+                                <div class="review-input-block mb-4">
+                                    <form action="">
+                                        <textarea placeholder="Đánh giá của bạn về truyện này" class="form-control rounded-2 border-0 p-3" style="height: 100px;"></textarea>
+                                        <button type="submit" class=" btn-submit bg-primary p-0 rounded-circle d-flex align-items-center justify-content-center text-white br-50">
+                                            <i class="nh-icon rotate-75 ti-location-arrow"></i>
+                                        </button>
+                                    </form>
+                                </div>
+                                <div class="comment">
+                                    <ul class="comment-list list-unstyled mt-3 mb-4 border-top">
+                                        <li class="comment-items media py-3 border-bottom">
+                                            <div class="nh-avatar nh-avatar--45 mr-3 position-relative" style="cursor: pointer;">
+                                                <img alt="" class="img-fluid size-45" src="./assets/images/151.jpg">
+                                                <span class="level px-1 py-0 small bg-primary rounded-3 text-white fw-500">Cấp 1</span>
+                                            </div>
+                                            <div class="media-body">
+                                                <a href="" class="d-inline-block h5 mb-1 fz-14 fw-600">darkmager111</a>
+                                                <div class="d-flex align-items-center">
+                                                    <span class="d-flex align-items-center text-tertiary fz-13">
+                                                        <i class="nh-icon ti-timer mr-2 "></i> 2021-09-16 23:22:02
+                                                    </span>
+                                                </div>
+                                                <div class="mt-2 fz-13 fw-400 lh-15x text-black">Truyện xây dựng một thú vị, mục tiêu là phá cục tiệt giáo bị diệt vong. Truyện koncos vấn đề về bốn cục tình tiết mấy nói chung khá logic ổn bởi cốt truyện Hồng Hoang vốn bị cầy nát r. Điểm nhấn là sự hài
+                                                    hước nén giận của Thông Thiên khi đọc tâm của nv9 dẫn đến nét cười nhẹ nhàng cho người đọc khiến người đọc đôi khi nhập cảm với thông thiên khi cùng đọc tâm nv9. NV9 mắc một căn bệnh gọi là bệnh "bố
+                                                    láo". Chẳng biết mình là ai, chẳng coi ai ra gì. Nhiều lúc chính độc giả cũng muốn đập cho nó một trận. Về mặt tính cách, thái độ rất đáng ghét. Về mặt IQ tàm tạm hơi *** ***, dù đôi lúc khôn ra 1 tí
+                                                    cũng là nhờ tác giả thổi thêm đôi chút, còn đa phần là *** và lười ***.
+                                                </div>
+                                                <div class="d-flex mt-3">
+                                                    <div class="mr-auto">
+                                                        <!---->
+                                                    </div>
+                                                    <button class=" btn-sm btn-white fz-14 fw-500 text-tertiary rounded-3 d-flex align-items-center px-3 mr-2">
+                                                        <i class="nh-icon ti-thumb-up mr-2"></i>0
+                                                    </button>
+                                                    <button class="rep_comment btn-sm btn-white fz-14 fw-500 text-tertiary rounded-3 d-flex align-items-center px-3 mr-2 ">
+                                                        <i class="nh-icon ti-share-alt mr-2"></i>
+                                                        Trả lời
+                                                    </button>
+                                                    <button class=" btn-sm btn-white fz-14 fw-500 text-tertiary rounded-3 d-flex align-items-center px-3">
+                                                         <i class="nh-icon ti-flag mr-2"></i>
+                                                        Báo xấu
+                                                    </button>
+                                                    <!---->
+                                                </div>
+                                                <div class="rep-cmt-list">
+                                                    <ul class="list-unstyled mt-2 ">
+                                                        <li class="media py-3 border-top">
+                                                            <div class="nh-avatar nh-avatar--45 mr-3 position-relative" style="cursor: pointer;">
+                                                                <img alt="" class="img-fluid size-45" src="./assets/images/100.jpg" lazy="loaded">
+                                                                <span class="level px-1 py-0 small bg-primary rounded-3 text-white fw-500">
+                                                                Cấp 4
+                                                            </span>
+                                                            </div>
+                                                            <div class="media-body">
+                                                                <a href="" class="d-inline-block fz-13 fw-600 mb-1 mr-2">kakingabc</a>
+                                                                <span class="comment-body mt-2 fz-13 fw-400 lh-15x text-black">ta thấy đạo hữu khen
+                                                                quá trời mà đánh giá 3,5 sao =))))) ta tưởng
+                                                                3,5 sao là đạo hữu phải chê dữ lắm=)))))
+                                                            </span>
+                                                                <div class="d-flex mt-2">
+                                                                    <a class="fz-body text-tertiary d-flex align-items-center mr-4 fz-13">
+                                                                        <i class="nh-icon ti-thumb-up mr-2 small"></i>
+                                                                        <small>0</small>
+                                                                    </a>
+                                                                    <span class="d-flex align-items-center text-tertiary small fz-13">
+                                                                    <i class="nh-icon ti-timer mr-2"></i>2021-09-16 23:22:02
+                                                                </span>
+                                                                    <a href="" class="fz-body text-tertiary d-flex align-items-center ml-auto pr-20 fz-13">
+                                                                        <i class="nh-icon ti-flag small"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li class="media py-3 border-top">
+                                                            <div class="nh-avatar nh-avatar--45 mr-3 position-relative" style="cursor: pointer;">
+                                                                <img alt="" class="img-fluid size-45" src="./assets/images/100.jpg" lazy="loaded">
+                                                                <span class="level px-1 py-0 small bg-primary rounded-3 text-white fw-500">
+                                                                Cấp 4
+                                                            </span>
+                                                            </div>
+                                                            <div class="media-body">
+                                                                <a href="" class="d-inline-block fz-13 fw-600 mb-1 mr-2">kakingabc</a>
+                                                                <span class="comment-body mt-2 fz-13 fw-400 lh-15x text-black">ta thấy đạo hữu khen
+                                                                quá trời mà đánh giá 3,5 sao =))))) ta tưởng
+                                                                3,5 sao là đạo hữu phải chê dữ lắm=)))))
+                                                            </span>
+                                                                <div class="d-flex mt-2">
+                                                                    <a class="fz-body text-tertiary d-flex align-items-center mr-4 fz-13">
+                                                                        <i class="nh-icon ti-thumb-up mr-2 small"></i>
+                                                                        <small>0</small>
+                                                                    </a>
+                                                                    <span class="d-flex align-items-center text-tertiary small fz-13">
+                                                                    <i class="nh-icon ti-timer mr-2"></i>2021-09-16 23:22:02
+                                                                </span>
+                                                                    <a href="" class="fz-body text-tertiary d-flex align-items-center ml-auto pr-20 fz-13">
+                                                                        <i class="nh-icon ti-flag small"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+
+                                                        <!----><a class="remove_commet ml-2 fz-14 fw-600">Ẩn trả lời</a>
+                                                    </ul>
+                                                    <div id="showReplyForm" class="comment-form media p-2 mt-2">
+                                                        <div class="nh-avatar nh-avatar--30 mr-2 mt-1 position-relative">
+                                                            <img alt="" class="img-fluid size-30" src="./assets/images/150.jpg" lazy="loaded">
+                                                        </div>
+                                                        <div class="media-body comment-input-block position-relative">
+                                                            <textarea placeholder="Nội dung trả lời" class="form-control bg-light pr-20" style="height: 60px;"></textarea>
+                                                            <button class=" btn-submit bg-transparent text-primary d-flex align-items-center justify-content-center shadow-none px-2">
+                                                            <i class="nh-icon rotate-135 ti-location-arrow fz-24"></i>
+                                                        </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="comment-items media py-3 border-bottom">
+                                            <div class="nh-avatar nh-avatar--45 mr-3 position-relative" style="cursor: pointer;">
+                                                <img alt="" class="img-fluid size-45" src="./assets/images/150.jpg">
+                                                <span class="level px-1 py-0 small bg-primary rounded-3 text-white fw-500">Cấp 1</span>
+                                            </div>
+                                            <div class="media-body">
+                                                <a href="" class="d-inline-block h5 mb-1 fz-14 fw-600">darkmager111</a>
+                                                <div class="d-flex align-items-center">
+                                                    <span class="d-flex align-items-center text-tertiary fz-13">
+                                                        <i class="nh-icon ti-timer mr-2 "></i> 2021-09-16 23:22:02
+                                                    </span>
+                                                </div>
+                                                <div class="mt-2 fz-13 fw-400 lh-15x text-black">Truyện xây dựng một thú vị, mục tiêu là phá cục tiệt giáo bị diệt vong. Truyện koncos vấn đề về bốn cục tình tiết mấy nói chung khá logic ổn bởi cốt truyện Hồng Hoang vốn bị cầy nát r. Điểm nhấn là sự hài
+                                                    hước nén giận của Thông Thiên khi đọc tâm của nv9 dẫn đến nét cười nhẹ nhàng cho người đọc khiến người đọc đôi khi nhập cảm với thông thiên khi cùng đọc tâm nv9. NV9 mắc một căn bệnh gọi là bệnh "bố
+                                                    láo". Chẳng biết mình là ai, chẳng coi ai ra gì. Nhiều lúc chính độc giả cũng muốn đập cho nó một trận. Về mặt tính cách, thái độ rất đáng ghét. Về mặt IQ tàm tạm hơi *** ***, dù đôi lúc khôn ra 1 tí
+                                                    cũng là nhờ tác giả thổi thêm đôi chút, còn đa phần là *** và lười ***.
+                                                </div>
+                                                <div class="d-flex mt-3">
+                                                    <div class="mr-auto">
+                                                        <!---->
+                                                    </div>
+                                                    <button class=" btn-sm btn-white fz-14 fw-500 text-tertiary rounded-3 d-flex align-items-center px-3 mr-2">
+                                                        <i class="nh-icon ti-thumb-up mr-2"></i>0
+                                                    </button>
+                                                    <button class="rep_comment btn-sm btn-white fz-14 fw-500 text-tertiary rounded-3 d-flex align-items-center px-3 mr-2">
+                                                        <i class="nh-icon ti-share-alt mr-2"></i>
+                                                        Trả lời
+                                                    </button>
+                                                    <button class=" btn-sm btn-white fz-14 fw-500 text-tertiary rounded-3 d-flex align-items-center px-3">
+                                                         <i class="nh-icon ti-flag mr-2"></i>
+                                                        Báo xấu
+                                                    </button>
+                                                    <!---->
+                                                </div>
+                                                <div class="rep-cmt-list">
+                                                    <ul class="list-unstyled mt-2 ">
+                                                        <li class="media py-3 border-top">
+                                                            <div class="nh-avatar nh-avatar--45 mr-3 position-relative" style="cursor: pointer;">
+                                                                <img alt="" class="img-fluid size-45" src="./assets/images/100.jpg" lazy="loaded">
+                                                                <span class="level px-1 py-0 small bg-primary rounded-3 text-white fw-500">
+                                                                Cấp 4
+                                                            </span>
+                                                            </div>
+                                                            <div class="media-body">
+                                                                <a href="" class="d-inline-block fz-13 fw-600 mb-1 mr-2">kakingabc</a>
+                                                                <span class="comment-body mt-2 fz-13 fw-400 lh-15x text-black">ta thấy đạo hữu khen
+                                                                quá trời mà đánh giá 3,5 sao =))))) ta tưởng
+                                                                3,5 sao là đạo hữu phải chê dữ lắm=)))))
+                                                            </span>
+                                                                <div class="d-flex mt-2">
+                                                                    <a class="fz-body text-tertiary d-flex align-items-center mr-4 fz-13">
+                                                                        <i class="nh-icon ti-thumb-up mr-2 small"></i>
+                                                                        <small>0</small>
+                                                                    </a>
+                                                                    <span class="d-flex align-items-center text-tertiary small fz-13">
+                                                                    <i class="nh-icon ti-timer mr-2"></i>2021-09-16 23:22:02
+                                                                </span>
+                                                                    <a href="" class="fz-body text-tertiary d-flex align-items-center ml-auto pr-20 fz-13">
+                                                                        <i class="nh-icon ti-flag small"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li class="media py-3 border-top">
+                                                            <div class="nh-avatar nh-avatar--45 mr-3 position-relative" style="cursor: pointer;">
+                                                                <img alt="" class="img-fluid" src="./assets/images/100.jpg" lazy="loaded">
+                                                                <span class="level px-1 py-0 small bg-primary rounded-3 text-white fw-500">
+                                                                Cấp 4
+                                                            </span>
+                                                            </div>
+                                                            <div class="media-body">
+                                                                <a href="" class="d-inline-block fz-13 fw-600 mb-1 mr-2">kakingabc</a>
+                                                                <span class="comment-body mt-2 fz-13 fw-400 lh-15x text-black">ta thấy đạo hữu khen
+                                                                quá trời mà đánh giá 3,5 sao =))))) ta tưởng
+                                                                3,5 sao là đạo hữu phải chê dữ lắm=)))))
+                                                            </span>
+                                                                <div class="d-flex mt-2">
+                                                                    <a class="fz-body text-tertiary d-flex align-items-center mr-4 fz-13">
+                                                                        <i class="nh-icon ti-thumb-up mr-2 small"></i>
+                                                                        <small>0</small>
+                                                                    </a>
+                                                                    <span class="d-flex align-items-center text-tertiary small fz-13">
+                                                                    <i class="nh-icon ti-timer mr-2"></i>2021-09-16 23:22:02
+                                                                </span>
+                                                                    <a href="" class="fz-body text-tertiary d-flex align-items-center ml-auto pr-20 fz-13">
+                                                                        <i class="nh-icon ti-flag small"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+
+                                                        <!----><a class="remove_commet ml-2 fz-14 fw-600">Ẩn trả lời</a>
+                                                    </ul>
+                                                    <div id="showReplyForm" class="comment-form media p-2 mt-2">
+                                                        <div class="nh-avatar nh-avatar--30 mr-2 mt-1 position-relative">
+                                                            <img alt="" class="img-fluid size-30" src="./assets/images/150.jpg" lazy="loaded">
+                                                        </div>
+                                                        <div class="media-body comment-input-block position-relative">
+                                                            <textarea placeholder="Nội dung trả lời" class="form-control bg-light pr-20" style="height: 60px;"></textarea>
+                                                            <button class=" btn-submit bg-transparent text-primary d-flex align-items-center justify-content-center shadow-none px-2">
+                                                            <i class="nh-icon rotate-135 ti-location-arrow fz-24"></i>
+                                                        </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="comment-items media py-3 border-bottom">
+                                            <div class="nh-avatar nh-avatar--45 mr-3 position-relative" style="cursor: pointer;">
+                                                <img alt="" class="img-fluid size-45" src="./assets/images/150.jpg">
+                                                <span class="level px-1 py-0 small bg-primary rounded-3 text-white fw-500">Cấp 1</span>
+                                            </div>
+                                            <div class="media-body">
+                                                <a href="" class="d-inline-block h5 mb-1 fz-14 fw-600">darkmager111</a>
+                                                <div class="d-flex align-items-center">
+                                                    <span class="d-flex align-items-center text-tertiary fz-13">
+                                                        <i class="nh-icon ti-timer mr-2 "></i> 2021-09-16 23:22:02
+                                                    </span>
+                                                </div>
+                                                <div class="mt-2 fz-13 fw-400 lh-15x text-black">Truyện xây dựng một thú vị, mục tiêu là phá cục tiệt giáo bị diệt vong. Truyện koncos vấn đề về bốn cục tình tiết mấy nói chung khá logic ổn bởi cốt truyện Hồng Hoang vốn bị cầy nát r. Điểm nhấn là sự hài
+                                                    hước nén giận của Thông Thiên khi đọc tâm của nv9 dẫn đến nét cười nhẹ nhàng cho người đọc khiến người đọc đôi khi nhập cảm với thông thiên khi cùng đọc tâm nv9. NV9 mắc một căn bệnh gọi là bệnh "bố
+                                                    láo". Chẳng biết mình là ai, chẳng coi ai ra gì. Nhiều lúc chính độc giả cũng muốn đập cho nó một trận. Về mặt tính cách, thái độ rất đáng ghét. Về mặt IQ tàm tạm hơi *** ***, dù đôi lúc khôn ra 1 tí
+                                                    cũng là nhờ tác giả thổi thêm đôi chút, còn đa phần là *** và lười ***.
+                                                </div>
+                                                <div class="d-flex mt-3">
+                                                    <div class="mr-auto">
+                                                        <!---->
+                                                    </div>
+                                                    <button class=" btn-sm btn-white fz-14 fw-500 text-tertiary rounded-3 d-flex align-items-center px-3 mr-2">
+                                                        <i class="nh-icon ti-thumb-up mr-2"></i>0
+                                                    </button>
+                                                    <button class="rep_comment btn-sm btn-white fz-14 fw-500 text-tertiary rounded-3 d-flex align-items-center px-3 mr-2">
+                                                        <i class="nh-icon ti-share-alt mr-2"></i>
+                                                        Trả lời
+                                                    </button>
+                                                    <button class=" btn-sm btn-white fz-14 fw-500 text-tertiary rounded-3 d-flex align-items-center px-3">
+                                                         <i class="nh-icon ti-flag mr-2"></i>
+                                                        Báo xấu
+                                                    </button>
+                                                    <!---->
+                                                </div>
+                                                <div class="rep-cmt-list">
+                                                    <ul class="list-unstyled mt-2 ">
+
+
+                                                        <!----><a class="remove_commet ml-2 fz-14 fw-600">Ẩn trả lời</a>
+                                                    </ul>
+                                                    <div id="showReplyForm" class="comment-form media p-2 mt-2">
+                                                        <div class="nh-avatar nh-avatar--30 mr-2 mt-1 position-relative">
+                                                            <img alt="" class="img-fluid size-30" src="./assets/images/150.jpg" lazy="loaded">
+                                                        </div>
+                                                        <div class="media-body comment-input-block position-relative">
+                                                            <textarea placeholder="Nội dung trả lời" class="form-control bg-light pr-20" style="height: 60px;"></textarea>
+                                                            <button class=" btn-submit bg-transparent text-primary d-flex align-items-center justify-content-center shadow-none px-2">
+                                                            <i class="nh-icon rotate-135 ti-location-arrow fz-24"></i>
+                                                        </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col l-1 m-0 c-0 br-5 position-fixed w-100 right-82">
+                        <div class="row">
+                            <div class="col l-9  ">
+                                <div class="br-5 w-100 chapter_menu-list">
+                                    <ul class="bg-chapter br-5 pr-10 pl-10">
+                                        <li onclick="list_chap()" class="chapter_menu-list-chap position-relative text-center pr-15 pl-15 cursor-poiter pt-25 pb-25 border-bottom-black-color">
+                                            <div class=" fz-20 fw-600 lh-15  ">
+                                                <i id="ti_menu_chap" class="ti-menu"></i>
+                                            </div>
+                                            <span class="tooltip fw-500"> Danh sách chương</span>
+                                            <span id="close_menu-chap" class="tooltip fw-500" style="z-index: 999;"> Đóng</span>
+                                        </li>
+                                        <li class="position-relative text-center pr-15 pl-15 cursor-poiter pt-25 pb-25 border-bottom-black-color">
+                                            <div class=" fz-20 fw-600 lh-15  ">
+                                                <i class="ti-settings"></i>
+                                            </div>
+                                            <span class="tooltip fw-500"> Cài đặt</span>
+                                        </li>
+                                        <li class="position-relative text-center pr-15 pl-15 cursor-poiter pt-25 pb-25 border-bottom-black-color">
+                                            <div class=" fz-20 fw-600 lh-15  ">
+                                                <i class="ti-arrow-left"></i>
+                                            </div>
+                                            <span class="tooltip fw-500"> Thông tin truyện</span>
+                                        </li>
+                                        <li class="position-relative text-center pr-15 pl-15 cursor-poiter pt-25 pb-25 ">
+                                            <div class=" fz-20 fw-600 lh-15  ">
+                                                <i class="ti-info-alt"></i>
+                                            </div>
+                                            <span class="tooltip fw-500"> Hướng dẫn</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-90">
+                            <div class="col l-9  ">
+                                <div class="br-5 w-100 chapter_menu-list">
+                                    <ul class="bg-chapter br-5 pr-10 pl-10">
+                                        <li class="position-relative text-center pr-15 pl-15 cursor-poiter pt-25 pb-25 border-bottom-black-color">
+                                            <div class=" fz-20 fw-600 lh-15  ">
+                                                <i class="ti-heart"></i>
+                                            </div>
+                                            <span class="tooltip fw-500"> Cảm xúc</span>
+                                        </li>
+                                        <li class="position-relative text-center pr-15 pl-15 cursor-poiter pt-25 pb-25 border-bottom-black-color">
+                                            <div class=" fz-20 fw-600 lh-15  ">
+                                                <i class="ti-bookmark"></i>
+                                            </div>
+                                            <span class="tooltip fw-500"> Đánh dấu</span>
+                                        </li>
+                                        <li class="position-relative text-center pr-15 pl-15 cursor-poiter pt-25 pb-25 border-bottom-black-color">
+                                            <div class=" fz-20 fw-600 lh-15  ">
+                                                <a href="#cmt">
+                                                    <i class="ti-comment"></i>
+                                                </a>
+                                            </div>
+                                            <span class="tooltip fw-500"> Xem bình luận</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="list_chap" class="nh-read__popover pr-25 pl-25 pt-25 pb-25 br-5">
+                        <div class="nh-read__popover-content br-5">
+                            <div class="d-flex align-items-center mb-3 pr-3">
+                                <div class="h3 fz-16 fw-600 lh-15x mb-0">Danh sách chương</div>
+                            </div>
+                            <div class="nh-section mb-4 pl-15 pr-15">
+                                <div class="row mt-2">
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 643: không ai có thể ngăn cản </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 642: Vạn Độc tinh, Vạn Độc thành </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 641: Độc Không chấn kinh </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 640: Săn tìm ngôi sao độc hư không </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 639: Một ý niệm đồ lưỡng long </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 638: Vạn Độc tinh </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 637: Tấn thăng bát giai siêu tiến hóa Cự Long </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 636: Ta chỉ cho ngươi nhóm một cơ hội (hạ) </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 635: Ta chỉ cho ngươi nhóm một cơ hội </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 634: Bọn họ hối hận </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 633: Quân sĩ chấn kinh </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 632: Phép nhân khẩu quyết </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 631: Tinh Chủ thực lực </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 630: Thu Tinh Chủ làm đồ đệ </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 629: Ca là hậu trường lão đại </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 628: Cường giả bí ẩn khủng bố </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 627: Không Hải chấn kinh </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 626: Thời Minh Nguyệt tập đoàn diệt </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 625: Ma niệm đồ long </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 624: Tu thành ma niệm </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 623: Miểu sát ngũ giai siêu tiến hóa Cự Long </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 622: Thêm tiền cư sĩ </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 621: Tay trái thời gian, tay phải không gian </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 620: Ta chuyện không muốn làm, dù ai cũng không cách nào ép buộc </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 619: Nóng nảy nghỉ hè lớp bổ túc </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 618: Mạc Thích nghỉ hè phụ đạo lớp </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 617: Mạnh nhất học viện mạnh nhất học sinh </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 616: Kim Ô học viện, toàn quân bị diệt </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 615: Miểu sát </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 614: Hung hãn sáu ba lớp </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 613: Trăm tinh thi đấu, mở ra </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 612: Mạc Thích phụ đạo lớp, hỏa bạo nhận người </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 611: Sáu ba lớp, việc nhân đức không nhường ai </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 610: Học sinh hung mãnh </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 609: Sáu ba lớp học sinh toàn thể mất liên lạc </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 608: Sáu ba lớp, ôm đồm hai mươi người đứng đầu </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 607: Vân Lan tinh </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 606: Ta cảm thấy công bình một chút, tất cả đều cần phải cho chúng ta </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 605: Đạo sư thực lực, thâm bất khả trắc! </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 604: Tấn thăng lục giai siêu tiến hóa Cự Long (2. 0) </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 603: Tấn thăng lục giai siêu tiến hóa Cự Long </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 602: Một chiêu miểu sát sáu mươi cái Cự Long! </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 601: Mang học sinh diệt phỉ </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 600: Mang học sinh diệt phỉ (2. 0) </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 599: Mang học sinh diệt phỉ </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 598: Một giây 100 ức năm </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 597: Toàn lớp đột phá </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 596: Toàn lớp lập tức đột phá </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 595: Kim Long Cửu Biến cùng Không Long Cửu Biến </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 594: Một tiết khóa, chấn kinh tất cả mọi người </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 593: Đùa giỡn đạo sư? Ha ha </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 592: Đùa giỡn đạo sư </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 591: Hai vị đạo sư bái phỏng </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 590: Các loại long cửu biến </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 589: Khiêu chiến thầy chủ nhiệm </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 588: Thi sát hạch </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 587: Thi sát hạch </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 586: Lớp này, về sau ta chính là lão đại! </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 585: Vân Hải thành, trên mây chi thành </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 584: Huyết giáo huấn </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 583: Đồ phỉ </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 582: Long phỉ </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 581: Lôi Nhân phi tốc tiến bộ </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 580: Trưởng thành bên trong Lôi Nhân (hạ) </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 579: Trưởng thành bên trong Lôi Nhân (thượng) </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 578: Chiến Tinh thú con non </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 577: Tinh thú con non </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 576: Học viện </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 575: Một câu chỉ điểm, thắng qua hoàng kim vạn lượng </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 574: Đại sư cấp chỉ điểm </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 573: Lôi Long Cửu Biến, khủng bố như vậy </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 572: Không cẩn thận đem Khai Tâm đánh thành tro </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 571: Một chiêu miểu sát 300 Cự Long </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 570: Đến từ Thổ gia khiêu khích </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 569: Địch hóa đám người không thương nổi a </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 568: Ngươi có tội gì </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 567: Lôi gia, Lôi Minh </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 566: Không say không nghỉ </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 565: Ngươi kính đã lâu ta cái gì? </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 564: Vân Hải tinh, Tiềm Long thành </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 563: Tấn thăng tứ giai siêu tiến hóa Cự Long </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 562: Tấn thăng điềm báo </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 561: Cự Long phòng thí nghiệm </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 560: Xuất phát, tiến về Vạn Long vực </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 559: Trảm sát ba cái Cự Long </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 558: Bốn cánh Thị Huyết Ma Long </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 557: Cái kia Ác Long, ta giết </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 556: Long tộc cũng là thần a? Ha ha </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 555: Long tộc tổ điều tra tới </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 554: Cự Long buông xuống </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 553: Huyết Hoàng cứu vãn thế giới? </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 552: Huyết Hoàng thanh lý thế giới </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 551: Huyết Hoàng thanh lý thế giới, Cự Long buông xuống </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 border-bottom-dashed">
+                                        <a class="media py-2 mt-2">
+                                            <div class="media-body">
+                                                <div class="text-overflow-1-lines fz-13 fw-400 "> Chương 550: Tướng Thi thế giới, diệt! </div>
+                                            </div>
+                                            <!---->
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer text-center" style="background: url('./assets/images/footer-bg.jpg') no-repeat; background-size: 100% 100%;">
+            <div class="grid wide footer-body">
+                <div class="footer-desc">
+                    Mê Truyện Chữ là nền tảng mở trực tuyến, miễn phí đọc truyện chữ được convert hoặc dịch kỹ lưỡng, do các converter và dịch giả đóng góp, rất nhiều truyện hay và nổi bật được cập nhật nhanh nhất với đủ các thể loại tiên hiệp, kiếm hiệp, huyền ảo ...
+                </div>
+                <div class="footer-logo">
+                    <a href="" class="logo-link">
+                        <img src="./assets/images/logo.png" alt="">
+                    </a>
+                </div>
+                <div>
+                    <ul class="list-unstyled row">
+                        <li class="col m-3 c-6"><a href="">Điều khoản dịch vụ</a></li>
+                        <li class="col m-3 c-6"><a href="">Điều khoản dịch vụ</a></li>
+                        <li class="col m-3 c-6"><a href="">Điều khoản dịch vụ</a></li>
+                        <li class="col m-3 c-6"><a href="">Điều khoản dịch vụ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <div class="modal-content modal-menu-mobile" id="menu-mobile">
+            <div class="modal-menu-mobile__header ">
+                <div class="modal-menu-mobile__header-title ">Menu</div>
+                <div class="modal-menu-mobile__header-close modal-close "><i class="ti-close " onclick="close_menu_btn()"></i></div>
+            </div>
+            <div class="modal-menu-mobile__content ">
+                <div class="modal-menu-mobile__content-wrap ">
+                    <ul class="modal-menu-mobile__list ">
+                        <li class="modal-menu-mobile__list-items  ">
+                            <a href="/ " class="modal-menu-mobile__list-items-link "><i class="ti-bookmark"></i>Tủ truyện</a>
+                        </li>
+                        <li class="modal-menu-mobile__list-items  ">
+                            <a href="/ " class="modal-menu-mobile__list-items-link "><i class="ti-location-arrow"></i>Đăng truyện</a>
+                        </li>
+                        <li class="modal-menu-mobile__list-items ">
+                            <a class="modal-menu-mobile__list-items-link "><i class="ti-pulse"></i>Thể loại</a>
+                            <label for="modal-menu-mobile__submenu-checkbox " class="modal-menu-mobile__list-items-icon ">
+                                    <i onclick="ti_plus1()" id="ti_plus" class="ti-angle-down modal-menu-mobile__list-items-icon-plus " ></i>
+                                </label>
+                            <ul id="category_1" class="modal-menu-mobile__submenu-list ">
+                                <li class="modal-menu-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-menu-mobile__submenu-list-items-link ">Tất cả</a>
+                                </li>
+                                <li class="modal-menu-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-menu-mobile__submenu-list-items-link ">Huyền Huyễn</a>
+                                </li>
+                                <li class="modal-menu-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-menu-mobile__submenu-list-items-link ">Võng Du</a>
+                                </li>
+                                <li class="modal-menu-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-menu-mobile__submenu-list-items-link ">Đồng Nhân</a>
+                                </li>
+                                <li class="modal-menu-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-menu-mobile__submenu-list-items-link ">Cạnh Kỹ</a>
+                                </li>
+                                <li class="modal-menu-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-menu-mobile__submenu-list-items-link ">Kiếm Hiệp</a>
+                                </li>
+                                <li class="modal-menu-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-menu-mobile__submenu-list-items-link ">Tiên Hiệp</a>
+                                </li>
+                                <li class="modal-menu-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-menu-mobile__submenu-list-items-link ">Khoa Huyễn</a>
+                                </li>
+                                <li class="modal-menu-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-menu-mobile__submenu-list-items-link ">Đô thị</a>
+                                </li>
+                                <li class="modal-menu-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-menu-mobile__submenu-list-items-link ">Lịch Sử</a>
+                                </li>
+                                <li class="modal-menu-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-menu-mobile__submenu-list-items-link ">Huyền Nghi</a>
+                                </li>
+                                <li class="modal-menu-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-menu-mobile__submenu-list-items-link ">Kỳ Ảo</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="modal-menu-mobile__list-items ">
+                            <a href="./rankings.html " class="modal-menu-mobile__list-items-link "><i class="ti-stats-up"></i>Bảng xếp hạng</a>
+                            <label for="modal-menu-mobile__submenu-checkbox " class="modal-menu-mobile__list-items-icon ">
+                                    <i onclick="ti_plus2()" id="ti_plus2" class="ti-angle-down modal-menu-mobile__list-items-icon-plus " ></i>
+                                </label>
+                            <ul id="tbl_rank" class="modal-menu-mobile__submenu-list ">
+                                <li class="modal-menu-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-menu-mobile__submenu-list-items-link ">Thịnh Hành</a>
+                                </li>
+                                <li class="modal-menu-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-menu-mobile__submenu-list-items-link ">Đọc Nhiều</a>
+                                </li>
+                                <li class="modal-menu-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-menu-mobile__submenu-list-items-link ">Tặng Thưởng</a>
+                                </li>
+                                <li class="modal-menu-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-menu-mobile__submenu-list-items-link ">Đề Cử</a>
+                                </li>
+                                <li class="modal-menu-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-menu-mobile__submenu-list-items-link ">Yêu Thích</a>
+                                </li>
+                                <li class="modal-menu-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-menu-mobile__submenu-list-items-link ">Thảo Luận</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="modal-menu-mobile__list-items ">
+                            <a class="modal-menu-mobile__list-items-link btn-modal-active " data-modal="auth ">
+                                <i class="ti-user "></i>Cá nhân
+                            </a>
+                            <label for="modal-menu-mobile__submenu-checkbox " class="modal-menu-mobile__list-items-icon ">
+                                    <i onclick="ti_plus3()" id="ti_plus3" class="ti-angle-down modal-menu-mobile__list-items-icon-plus " ></i>
+                                </label>
+                            <ul id="profile" class="modal-menu-mobile__submenu-list ">
+                                <li class="modal-menu-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-menu-mobile__submenu-list-items-link ">Đăng Nhập</a>
+                                </li>
+                                <li class="modal-menu-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-menu-mobile__submenu-list-items-link ">Đăng Ký</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="modal-content modal-panel-mobile" id="panel-mobile">
+            <div class="modal-panel-mobile__header ">
+                <div class="modal-panel-mobile__header-title ">Bộ Lọc</div>
+                <div class="modal-panel-mobile__header-close modal-close "><i class="ti-close " onclick="close_panel_btn()"></i></div>
+            </div>
+            <div class="modal-panel-mobile__content ">
+                <div class="modal-panel-mobile__content-wrap ">
+                    <ul class="modal-panel-mobile__list ">
+                        <li class="modal-panel-mobile__list-items ">
+                            <a class="modal-panel-mobile__list-items-link "><i class="ti-pulse"></i>Thể loại</a>
+                            <label for="modal-panel-mobile__submenu-checkbox " class="modal-panel-mobile__list-items-icon ">
+                                    <i onclick="ti_panel_1()" id="ti_panel_1" class="ti-angle-down modal-panel-mobile__list-items-icon-plus " ></i>
+                                </label>
+                            <ul id="ti_panel_1_1" class="modal-panel-mobile__submenu-list ">
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Tất cả</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Huyền Huyễn</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Võng Du</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Đồng Nhân</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Cạnh Kỹ</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Kiếm Hiệp</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Tiên Hiệp</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Khoa Huyễn</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Đô thị</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Lịch Sử</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Huyền Nghi</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Kỳ Ảo</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="modal-panel-mobile__list-items ">
+                            <a class="modal-panel-mobile__list-items-link "><i class="ti-comments-smiley"></i>Tình Trạng</a>
+                            <label for="modal-panel-mobile__submenu-checkbox " class="modal-panel-mobile__list-items-icon ">
+                                    <i onclick="ti_panel_2()" id="ti_panel_2" class="ti-angle-down modal-panel-mobile__list-items-icon-plus " ></i>
+                                </label>
+                            <ul id="ti_panel_2_1" class="modal-panel-mobile__submenu-list ">
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Toàn Bộ</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Đang Ra</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Hoàn Thành</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="modal-panel-mobile__list-items ">
+                            <a class="modal-panel-mobile__list-items-link "><i class="ti-face-smile"></i>Thuộc Tính</a>
+                            <label for="modal-panel-mobile__submenu-checkbox " class="modal-panel-mobile__list-items-icon ">
+                                    <i onclick="ti_panel_3()" id="ti_panel_3" class="ti-angle-down modal-panel-mobile__list-items-icon-plus " ></i>
+                                </label>
+                            <ul id="ti_panel_3_1" class="modal-panel-mobile__submenu-list">
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Toàn Bộ</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Chọn Lọc</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Chất Lượng Cao</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="modal-panel-mobile__list-items ">
+                            <a class="modal-panel-mobile__list-items-link "><i class="ti-face-sad"></i>Tính Cách Nhân Vật</a>
+                            <label for="modal-panel-mobile__submenu-checkbox " class="modal-panel-mobile__list-items-icon ">
+                                    <i onclick="ti_panel_4()" id="ti_panel_4" class="ti-angle-down modal-panel-mobile__list-items-icon-plus " ></i>
+                                </label>
+                            <ul id="ti_panel_4_1" class="modal-panel-mobile__submenu-list ">
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Điềm Đạm</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Nhiệt Huyết </a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Vô Sỉ</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Nhẹ Nhàng</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Thiết Huyết </a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Cơ Trí</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Lãnh Khốc</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Kiêu Ngạo </a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Ngu Ngốc</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Giảo Hoạt</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="modal-panel-mobile__list-items ">
+                            <a class="modal-panel-mobile__list-items-link "><i class="ti-map"></i>Bối Cảnh Thế Giới</a>
+                            <label for="modal-panel-mobile__submenu-checkbox " class="modal-panel-mobile__list-items-icon ">
+                                    <i onclick="ti_panel_5()" id="ti_panel_5" class="ti-angle-down modal-panel-mobile__list-items-icon-plus " ></i>
+                                </label>
+                            <ul id="ti_panel_5_1" class="modal-panel-mobile__submenu-list ">
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Điềm Đạm</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Nhiệt Huyết </a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Vô Sỉ</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Nhẹ Nhàng</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Thiết Huyết </a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Cơ Trí</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Lãnh Khốc</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Kiêu Ngạo </a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Ngu Ngốc</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Giảo Hoạt</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="modal-panel-mobile__list-items ">
+                            <a class="modal-panel-mobile__list-items-link "><i class="ti-cloud"></i>Lưu Phái</a>
+                            <label for="modal-panel-mobile__submenu-checkbox " class="modal-panel-mobile__list-items-icon ">
+                                    <i onclick="ti_panel_6()" id="ti_panel_6" class="ti-angle-down modal-panel-mobile__list-items-icon-plus " ></i>
+                                </label>
+                            <ul id="ti_panel_6_1" class="modal-panel-mobile__submenu-list ">
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Điềm Đạm</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Nhiệt Huyết </a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Vô Sỉ</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Nhẹ Nhàng</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Thiết Huyết </a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Cơ Trí</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Lãnh Khốc</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Kiêu Ngạo </a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Ngu Ngốc</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Giảo Hoạt</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="modal-panel-mobile__list-items ">
+                            <a class="modal-panel-mobile__list-items-link "><i class="ti-eye"></i>Thị Giác</a>
+                            <label for="modal-panel-mobile__submenu-checkbox " class="modal-panel-mobile__list-items-icon ">
+                                    <i onclick="ti_panel_7()" id="ti_panel_7" class="ti-angle-down modal-panel-mobile__list-items-icon-plus " ></i>
+                                </label>
+                            <ul id="ti_panel_7_1" class="modal-panel-mobile__submenu-list ">
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Điềm Đạm</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Nhiệt Huyết </a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Vô Sỉ</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Nhẹ Nhàng</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Thiết Huyết </a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Cơ Trí</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Lãnh Khốc</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Kiêu Ngạo </a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Ngu Ngốc</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Giảo Hoạt</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--  modal-cart--active -->
+
+    </div>
+    <script src='./assets/js/swiper.min.js'></script>
+    <script src="./assets/js/slider.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/detail.js"></script>
+</body>
+
+</html>

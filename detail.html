@@ -1,0 +1,1431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mê truyện </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel='stylesheet' href='./assets/css/swiper.min.css'>
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
+
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/slider.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+
+</head>
+
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="grid wide">
+                <div class="header-container row pr-15 pl-15">
+                    <div class="header-menu-bar  col l-0 m-4 c-2">
+                        <a class="header-menu-bar__icon btn-modal-active">
+                            <i id="menu_btn" onclick="menu_btn()" class="ti-menu"></i>
+                        </a>
+                    </div>
+                    <div class="header-logo col l-3 m-4 c-8 ">
+                        <div class="header-logo-wrap">
+                            <a href="/" class="header-logo-link">
+                                <img src="./assets/images/logo-domain.png" alt="HTBakery" class="header-logo-link-img">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="header-menu  col l-6 m-0 c-0">
+                        <ul class="header-menu__list">
+                            <li class="header-menu__list-items">
+                                <a class="header-menu__list-items-link">Thể loại</a>
+                                <ul class="row header-submenu__list ">
+                                    <li class="col l-6 header-submenu__list-items ">
+                                        <a href="./category.html" class="header-submenu__list-items-link">Tất cả</a>
+                                    </li>
+                                    <li class="col l-6 header-submenu__list-items">
+                                        <a href="./category.html" class="header-submenu__list-items-link">Huyền
+                                            Huyễn</a>
+                                    </li>
+                                    <li class="col l-6 header-submenu__list-items">
+                                        <a href="./category.html" class="header-submenu__list-items-link">Võng Du</a>
+                                    </li>
+                                    <li class="col l-6 header-submenu__list-items">
+                                        <a href="./category.html" class="header-submenu__list-items-link">Đồng Nhân</a>
+                                    </li>
+                                    <li class="col l-6 header-submenu__list-items">
+                                        <a href="./category.html" class="header-submenu__list-items-link">Cạnh Kỹ</a>
+                                    </li>
+                                    <li class="col l-6 header-submenu__list-items">
+                                        <a href="./category.html" class="header-submenu__list-items-link">Kiếm Hiệp</a>
+                                    </li>
+                                    <li class="col l-6 header-submenu__list-items">
+                                        <a href="./category.html" class="header-submenu__list-items-link">Tiên Hiệp</a>
+                                    </li>
+                                    <li class="col l-6 header-submenu__list-items">
+                                        <a href="./category.html" class="header-submenu__list-items-link">Khoa Huyễn</a>
+                                    </li>
+                                    <li class="col l-6 header-submenu__list-items">
+                                        <a href="./category.html" class="header-submenu__list-items-link">Đô Thị</a>
+                                    </li>
+                                    <li class="col l-6 header-submenu__list-items">
+                                        <a href="./category.html" class="header-submenu__list-items-link">Lịch Sử</a>
+                                    </li>
+                                    <li class="col l-6 header-submenu__list-items">
+                                        <a href="./category.html" class="header-submenu__list-items-link">Huyền Nghi</a>
+                                    </li>
+                                    <li class="col l-6 header-submenu__list-items">
+                                        <a href="./category.html" class="header-submenu__list-items-link">Kì Ảo</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="header-menu__list-items">
+                                <a class="header-menu__list-items-link">Bảng xếp hạng</a>
+                                <ul class="row header-submenu__list ">
+                                    <li class="col l-12 header-submenu__list-items ">
+                                        <a href="./rankings.html" class="header-submenu__list-items-link">Tất cả</a>
+                                    </li>
+                                    <li class="col l-12 header-submenu__list-items">
+                                        <a href="./rankings.html" class="header-submenu__list-items-link">Huyền
+                                            Huyễn</a>
+                                    </li>
+                                    <li class="col l-12 header-submenu__list-items">
+                                        <a href="./rankings.html" class="header-submenu__list-items-link">Võng Du</a>
+                                    </li>
+                                    <li class="col l-12 header-submenu__list-items">
+                                        <a href="./rankings.html" class="header-submenu__list-items-link">Đồng Nhân</a>
+                                    </li>
+                                    <li class="col l-12 header-submenu__list-items">
+                                        <a href="./rankings.html" class="header-submenu__list-items-link">Cạnh Kỹ</a>
+                                    </li>
+                                    <li class="col l-12 header-submenu__list-items">
+                                        <a href="./rankings.html" class="header-submenu__list-items-link">Kiếm Hiệp</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="header-menu__list-items">
+                                <a href="./news.html" class="header-menu__list-items-link">Tủ truyện</a>
+                            </li>
+                            <li class="header-menu__list-items">
+                                <a href="./contact.html" class="header-menu__list-items-link">Đăng truyện</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="header-group-btn  col l-3 m-4 c-2">
+                        <ul class="header-group-btn__list ">
+                            <li id="cl1" onclick="search_btn();" class="header-group-btn__list-items">
+                                <div class="header-group-btn__list-items-link header-group-btn__list-items-search btn-modal-active">
+                                    <i id="search_icon_x" class="header-group-btn__list-items-link-icon ti-search"></i>
+                                </div>
+                            </li>
+                            <li class="header-group-btn__list-items">
+                                <a class="header-group-btn__list-items-link header-group-btn__list-items-auth btn-modal-active">
+                                    <i class="header-group-btn__list-items-link-icon ti-user"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="header_search" class="header-search col l-12 m-12 c-12">
+                        <div class="header-search_group">
+                            <form action="">
+                                <input type="text" name="" id="" placeholder="Tìm kiếm...">
+                                <button type="submit"><i class="ti-search"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main" style="background: url('./assets/images/home-bg.jpg') no-repeat;">
+            <div class="grid wide bg-while br-5">
+                <div class="container row pl-25 pt-25 pb-25 pr-25">
+                    <div class="col l-12 m-12 c-12">
+                        <div class="detail_nav media row">
+                            <div class=" col l-3 m-12 c-12 text-center">
+                                <div class="nh-thumb nh-thumb--210 shadow"><img src="./assets/images/153.jpg" alt="Vạn Đạo Kiếm Tôn"></div>
+                            </div>
+                            <div class="col l-9 m-12 c-12 media-body">
+                                <div class="d-flex justify-content-start mb-3">
+                                    <h1 class="fw-600 fz-24 mr-4 lh-14x"><a href="#">Vạn Đạo Kiếm Tôn</a></h1>
+
+                                </div>
+                                <ul class="list-unstyled mb-4">
+                                    <li class="d-inline-block border fz-13 fw-400 border-secondary pl-15 pr-15 pb-2 pt-2 text-secondary rounded-3 mr-2 mb-2">
+                                        Đả Tử Đô Yếu Tiễn
+                                    </li>
+                                    <li class="d-inline-block border fz-13 fw-400 border-danger pl-15 pr-15 pb-2 pt-2 text-danger rounded-3 mr-2 mb-2">
+                                        Đang ra
+                                    </li>
+                                    <li class="d-inline-block border fz-13 fw-400 border-primary pl-15 pr-15 pb-2 pt-2 text-primary rounded-3 mr-2 mb-2">
+                                        <a href="#" class="text-primary">Huyền Huyễn</a>
+                                    </li>
+                                    <li class="d-inline-block border fz-13 fw-400 border-success pl-15 pr-15 pb-2 pt-2 text-success rounded-3 mr-2 mb-2">
+                                        <a href="#" class="text-success">Vô Sỉ</a>
+                                    </li>
+                                    <li class="d-inline-block border fz-13 fw-400 border-success pl-15 pr-15 pb-2 pt-2 text-success rounded-3 mr-2 mb-2">
+                                        <a href="#" class="text-success">Đông Phương Huyền Huyễn</a>
+                                    </li>
+                                    <li class="d-inline-block border fz-13 fw-400 border-success pl-15 pr-15 pb-2 pt-2 text-success rounded-3 mr-2 mb-2">
+                                        <a href="#" class="text-success">Hệ Thống</a>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled d-flex mb-4">
+                                    <li class="mr-5">
+                                        <div class="text-center fw-500 fz-20 mb-1">5723</div>
+                                        <div class="text-center fz-12 fw-500">Chương</div>
+                                    </li>
+                                    <li class="mr-5">
+                                        <div class="text-center fw-500 fz-20 mb-1">14</div>
+                                        <div class="text-center fz-12 fw-500">Chương/tuần</div>
+                                    </li>
+                                    <li class="mr-5">
+                                        <div class="text-center fw-500 fz-20 mb-1">1.6M</div>
+                                        <div class="text-center fz-12 fw-500">Lượt đọc</div>
+                                    </li>
+                                    <li class="mr-5">
+                                        <div id="bookmarkedValue" class="text-center fz-20 mb-1">1264</div>
+                                        <div class="text-center fz-12 fw-500">Cất giữ</div>
+                                    </li>
+                                </ul>
+                                <div class="d-flex align-items-center mb-4">
+                                    <span class="nh-rating fz-13">
+                                        <i class="nh-icon ti-star"></i>
+                                        <i class="nh-icon ti-star"></i>
+                                        <i class="nh-icon ti-star"></i>
+                                        <i class="nh-icon ti-star"></i>
+                                        <i class="nh-icon ti-star"></i>
+                                        <span class="active" style="width: 70%;">
+                                            <i class="nh-icon ti-star"></i>
+                                            <i class="nh-icon ti-star"></i>
+                                            <i class="nh-icon ti-star"></i>
+                                            <i class="nh-icon ti-star"></i>
+                                            <i class="nh-icon ti-star"></i>
+                                        </span>
+                                    </span>
+                                    <span class="d-inline-block ml-2 fz-15">
+                                        <span class="fw-500 fz-15">4.84</span> /5
+                                    </span>
+                                    <span class="d-inline-block fz-15 text-secondary ml-1">(26 đánh giá)</span>
+                                </div>
+                                <ul class="row list-unstyled d-flex align-items-center pr-30">
+                                    <li id="reading-book" class="col l-4 m-4 c-4 ">
+                                        <a href="./chapter_detail.html" class="fz-14 fw-600 cursor-pointer border btn-danger btn-md btn-block btn-shadow fw-600 d-flex align-items-center justify-content-center" style="color: rgb(255, 255, 255);">
+                                            <i class="nh-icon ti-eye"> </i> &nbsp;Đọc truyện
+                                        </a>
+                                    </li>
+                                    <li id="bookmark" class="col l-4 m-4 c-4 ">
+                                        <span data-v-20fe2610="">
+                                            <!---->
+                                            <a data-v-20fe2610="" href=";"
+                                                class="border fz-14 btn-outline-secondary btn-md btn-block fw-600 d-flex align-items-center justify-content-center">
+                                                <i data-v-20fe2610="" class="nh-icon ti-bookmark"></i> Đánh dấu
+                                            </a>
+                                        </span>
+                                    </li>
+                                    <li id="suggest-book" class="col l-4 m-4 c-4 ">
+                                        <div data-v-5494eeb4="">
+                                            <!---->
+                                            <a data-v-5494eeb4="" href=";" class="border fz-14 btn-outline-warning btn-md btn-block bg-yellow-white text-primary fw-600 d-flex align-items-center justify-content-center">
+                                                <!----><i data-v-5494eeb4="" class="svg-icon icon-flower"></i> Đề cử
+                                            </a>
+                                            <!---->
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container row pl-25 pt-25 pb-25 pr-25">
+                    <div class="col l-12 w-100  ">
+                        <div class=" detail_tabss d-flex mrl-15">
+                            <div class=" detail_tabs-items active">
+                                Giới Thiệu
+                            </div>
+                            <div class=" detail_tabs-items">
+                                Bình Luận
+                            </div>
+                            <div class=" detail_tabs-items">
+                                D.s Chương
+                            </div>
+                            <div class="detail_lines"></div>
+                        </div>
+                        <div class="detail_tab-contents border-top">
+                            <div class="detail_tabs-panes active">
+                                <div class="row">
+                                    <div class="col l-8 w-100">
+                                        <div class="mb-4">
+                                            <div class="content fz-13 fw-400 lh-14x pl-15 pr-15">
+                                                <p>"Trở thành kim thủ chỉ ta, trước có mỹ nữ truy sát, sau có tuổi thọ sắp tới, cái này bắt đầu không có người nào."<br><br>Vương Hi đi vào Huyền Thiên Đại Lục, trở thành một quang vinh hệ thống, lại bởi vì
+                                                    một trận ngoài ý muốn biến thành một vị tuổi thọ sắp tới hình người hack, thậm chí bị mỹ nữ truy sát.<br><br>Vì mạng sống, hắn chỉ có thể hảo hảo tu tiên.<br><br>Nhưng theo không kịp kẻ đuổi giết
+                                                    tu vi, bất đắc dĩ hắn chỉ có thể ấn mở nga hệ khắc kim giao diện...
+                                                    <br><br>Truy sát thất bại Tô Tuyết nhu tình nói: "Trở thành đạo lữ của ta đi."<br><br>"Không có khả năng, ta là có nguyên tắc người!"
+                                                    <br><br>"Mười vạn mai linh thạch."<br><br>"Lão bà, đêm nay cơn gió rất là ồn ào náo động, ngươi muốn lựa chọn bên trên vẫn là hạ?"<br><br>—— ——</p>
+                                            </div>
+                                        </div>
+                                        <table class="table border-bottom mb-4 mt-5">
+                                            <tbody>
+                                                <tr class="row">
+                                                    <td class="col c-12 fw-600 fz-13" style="width: 130px;">Đề cử</td>
+                                                    <td class="col c-12 ">
+                                                        <div class="media">
+                                                            <div class="media-body">
+                                                                <div class="d-flex fz-13 align-items-center mb-0">
+                                                                    <i class="svg-icon icon-flower mr-3 ml-2"></i> 53
+                                                                </div>
+                                                            </div>
+                                                            <div class="fw-600 fz-13 pl-3">No. 464</div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr class="row">
+                                                    <td class="col c-12 fw-600 fz-13" style="width: 130px;">Chương mới</td>
+                                                    <td class="col c-12 ">
+                                                        <ul class="list-unstyled ">
+                                                            <li class="media">
+                                                                <div class="media-body fz-13"><a href="#">Chương 67:
+                                                                        Nhân gian tiên cảnh</a></div>
+                                                                <div class="pl-3 fz-13">11 giờ trước</div>
+                                                            </li>
+                                                        </ul>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="col l-4 w-100 ">
+                                        <div class="author-body-left bg-yelow-while brt-5 pt-25 pb-25 pl-25 pr-25">
+                                            <div class="author-avt position-relative nh-avatar nh-avatar--90 mx-auto pt-25 mb-20">
+                                                <a href="" class="link text-center d-block">
+                                                    <img class="br-50 w-100" src="./assets/images/100.jpg" alt="">
+                                                    <div class="pl-10 pr-10 pt-1 pb-1 bg-danger color-while br-10 fw-500 fz-13">
+                                                        Kim cương</div>
+                                                </a>
+                                            </div>
+                                            <div class="author-name fw-500 fz-16 lh-14x mb-20 text-center">
+                                                Thanh Hưng
+                                            </div>
+                                            <div class="author-gr-form row margin-x-0 text-center">
+                                                <div class="col l-4 m-4 c-4 pading-x-0">
+                                                    <i class="ti-book fz-20 fw-500 text-primary"></i>
+                                                    <div class="fz-13 fw-400 lh-14x mt-2 mb-2">Số truyện</div>
+                                                    <div class="fw-500 fz-16 lh-14x text-center">24</div>
+                                                </div>
+                                                <div class="col l-4 m-4 c-4 pading-x-0">
+                                                    <i class="ti-layout-media-right-alt fz-20 fw-500 text-primary"></i>
+                                                    <div class="fz-13 fw-400 lh-14x mt-2 mb-2">Số chương</div>
+                                                    <div class="fw-500 fz-16 lh-14x text-center">105000</div>
+                                                </div>
+                                                <div class="col l-4 m-4 c-4 pading-x-0">
+                                                    <i class="ti-bolt fz-20 fw-500 text-primary"></i>
+                                                    <div class="fz-13 fw-400 lh-14x mt-2 mb-2">Cấp</div>
+                                                    <div class="fw-500 fz-16 lh-14x text-center">4</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="nh-slider slider-x bg-yelow-while brb-5 pt-25 brb-5 mb-20">
+                                            <div class="swiper mySwiper brb-5">
+                                                <div class="swiper-wrapper">
+                                                    <div class="swiper-slide bg-yelow-while">
+                                                        <div class="row">
+                                                            <div class="col l-12 w-100">
+                                                                <a href="" class="d-block w-100 mb-20">
+                                                                    <img class="w-150 h-auto mx-auto" src="./assets/images/150.jpg" alt="">
+                                                                </a>
+                                                                <h2 class="mb-20">
+                                                                    <a class="fw-600 fz-14 lh-14x " href="">Thâm Không
+                                                                        Bỉ Ngạn</a>
+                                                                </h2>
+                                                                <div class="fw-400 fz-13 lh-14x mb-20 text-secondary text-overflow-3-lines pl-25 pr-25">
+                                                                    Trong vũ trụ bao la, một mảnh tinh hệ shệ shệ sinh diệt, cũng bất quá là sát na pha tạp lưu hệ sinh diệt, cũng bất quá là sát na pha tạp lưu inh diệt, cũng bất quá là sát na pha tạp lưu inh diệt, cũng bất quá là sát na pha tạp lưu quang. Ngắm nh...
+                                                                </div>
+                                                                <div class="mb-50">
+                                                                    <a href="">
+                                                                        <span class=" fz-13 text-primary border border-primary py-8 pr-25 pl-25">Đô
+                                                                            Thị</span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="swiper-slide bg-yelow-while">
+                                                        <div class="row">
+                                                            <div class="col l-12 w-100">
+                                                                <a href="" class="d-block w-100 mb-20">
+                                                                    <img class="w-150 h-auto mx-auto" src="./assets/images/150.jpg" alt="">
+                                                                </a>
+                                                                <h2 class="mb-20">
+                                                                    <a class="fw-600 fz-14 lh-14x " href="">Thâm Không
+                                                                        Bỉ Ngạn</a>
+                                                                </h2>
+                                                                <div class="fw-400 fz-13 lh-14x mb-20 text-secondary text-overflow-3-lines pl-25 pr-25">
+                                                                    Trong vũ trụ bao la, một mảnh tinh hệ shệ shệ sinh diệt, cũng bất quá là sát na pha tạp lưu hệ sinh diệt, cũng bất quá là sát na pha tạp lưu inh diệt, cũng bất quá là sát na pha tạp lưu inh diệt, cũng bất quá là sát na pha tạp lưu quang. Ngắm nh...
+                                                                </div>
+                                                                <div class="mb-50">
+                                                                    <a href="">
+                                                                        <span class=" fz-13 text-primary border border-primary py-8 pr-25 pl-25">Đô
+                                                                            Thị</span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="swiper-slide bg-yelow-while">
+                                                        <div class="row">
+                                                            <div class="col l-12 w-100">
+                                                                <a href="" class="d-block w-100 mb-20">
+                                                                    <img class="w-150 h-auto mx-auto" src="./assets/images/150.jpg" alt="">
+                                                                </a>
+                                                                <h2 class="mb-20">
+                                                                    <a class="fw-600 fz-14 lh-14x " href="">Thâm Không
+                                                                        Bỉ Ngạn</a>
+                                                                </h2>
+                                                                <div class="fw-400 fz-13 lh-14x mb-20 text-secondary text-overflow-3-lines pl-25 pr-25">
+                                                                    Trong vũ trụ bao la, một mảnh tinh hệ shệ shệ sinh diệt, cũng bất quá là sát na pha tạp lưu hệ sinh diệt, cũng bất quá là sát na pha tạp lưu inh diệt, cũng bất quá là sát na pha tạp lưu inh diệt, cũng bất quá là sát na pha tạp lưu quang. Ngắm nh...
+                                                                </div>
+                                                                <div class="mb-50">
+                                                                    <a href="">
+                                                                        <span class=" fz-13 text-primary border border-primary py-8 pr-25 pl-25">Đô
+                                                                            Thị</span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="swiper-slide bg-yelow-while">
+                                                        <div class="row">
+                                                            <div class="col l-12 w-100">
+                                                                <a href="" class="d-block w-100 mb-20">
+                                                                    <img class="w-150 h-auto mx-auto" src="./assets/images/150.jpg" alt="">
+                                                                </a>
+                                                                <h2 class="mb-20">
+                                                                    <a class="fw-600 fz-14 lh-14x " href="">Thâm Không
+                                                                        Bỉ Ngạn</a>
+                                                                </h2>
+                                                                <div class="fw-400 fz-13 lh-14x mb-20 text-secondary text-overflow-3-lines pl-25 pr-25">
+                                                                    Trong vũ trụ bao la, một mảnh tinh hệ shệ shệ sinh diệt, cũng bất quá là sát na pha tạp lưu hệ sinh diệt, cũng bất quá là sát na pha tạp lưu inh diệt, cũng bất quá là sát na pha tạp lưu inh diệt, cũng bất quá là sát na pha tạp lưu quang. Ngắm nh...
+                                                                </div>
+                                                                <div class="mb-50">
+                                                                    <a href="">
+                                                                        <span class=" fz-13 text-primary border border-primary py-8 pr-25 pl-25">Đô
+                                                                            Thị</span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="swiper-slide bg-yelow-while">
+                                                        <div class="row">
+                                                            <div class="col l-12 w-100">
+                                                                <a href="" class="d-block w-100 mb-20">
+                                                                    <img class="w-150 h-auto mx-auto" src="./assets/images/150.jpg" alt="">
+                                                                </a>
+                                                                <h2 class="mb-20">
+                                                                    <a class="fw-600 fz-14 lh-14x " href="">Thâm Không
+                                                                        Bỉ Ngạn</a>
+                                                                </h2>
+                                                                <div class="fw-400 fz-13 lh-14x mb-20 text-secondary text-overflow-3-lines pl-25 pr-25">
+                                                                    Trong vũ trụ bao la, một mảnh tinh hệ shệ shệ sinh diệt, cũng bất quá là sát na pha tạp lưu hệ sinh diệt, cũng bất quá là sát na pha tạp lưu inh diệt, cũng bất quá là sát na pha tạp lưu inh diệt, cũng bất quá là sát na pha tạp lưu quang. Ngắm nh...
+                                                                </div>
+                                                                <div class="mb-50">
+                                                                    <a href="">
+                                                                        <span class=" fz-13 text-primary border border-primary py-8 pr-25 pl-25">Đô
+                                                                            Thị</span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="swiper-slide bg-yelow-while">
+                                                        <div class="row">
+                                                            <div class="col l-12 w-100">
+                                                                <a href="" class="d-block w-100 mb-20">
+                                                                    <img class="w-150 h-auto mx-auto" src="./assets/images/150.jpg" alt="">
+                                                                </a>
+                                                                <h2 class="mb-20">
+                                                                    <a class="fw-600 fz-14 lh-14x " href="">Thâm Không
+                                                                        Bỉ Ngạn</a>
+                                                                </h2>
+                                                                <div class="fw-400 fz-13 lh-14x mb-20 text-secondary text-overflow-3-lines pl-25 pr-25">
+                                                                    Trong vũ trụ bao la, một mảnh tinh hệ shệ shệ sinh diệt, cũng bất quá là sát na pha tạp lưu hệ sinh diệt, cũng bất quá là sát na pha tạp lưu inh diệt, cũng bất quá là sát na pha tạp lưu inh diệt, cũng bất quá là sát na pha tạp lưu quang. Ngắm nh...
+                                                                </div>
+                                                                <div class="mb-50">
+                                                                    <a href="">
+                                                                        <span class=" fz-13 text-primary border border-primary py-8 pr-25 pl-25">Đô
+                                                                            Thị</span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="swiper-slide bg-yelow-while">
+                                                        <div class="row">
+                                                            <div class="col l-12 w-100">
+                                                                <a href="" class="d-block w-100 mb-20">
+                                                                    <img class="w-150 h-auto mx-auto" src="./assets/images/150.jpg" alt="">
+                                                                </a>
+                                                                <h2 class="mb-20">
+                                                                    <a class="fw-600 fz-14 lh-14x " href="">Thâm Không
+                                                                        Bỉ Ngạn</a>
+                                                                </h2>
+                                                                <div class="fw-400 fz-13 lh-14x mb-20 text-secondary text-overflow-3-lines pl-25 pr-25">
+                                                                    Trong vũ trụ bao la, một mảnh tinh hệ shệ shệ sinh diệt, cũng bất quá là sát na pha tạp lưu hệ sinh diệt, cũng bất quá là sát na pha tạp lưu inh diệt, cũng bất quá là sát na pha tạp lưu inh diệt, cũng bất quá là sát na pha tạp lưu quang. Ngắm nh...
+                                                                </div>
+                                                                <div class="mb-50">
+                                                                    <a href="">
+                                                                        <span class=" fz-13 text-primary border border-primary py-8 pr-25 pl-25">Đô
+                                                                            Thị</span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="swiper-slide bg-yelow-while">
+                                                        <div class="row">
+                                                            <div class="col l-12 w-100">
+                                                                <a href="" class="d-block w-100 mb-20">
+                                                                    <img class="w-150 h-auto mx-auto" src="./assets/images/150.jpg" alt="">
+                                                                </a>
+                                                                <h2 class="mb-20">
+                                                                    <a class="fw-600 fz-14 lh-14x " href="">Thâm Không
+                                                                        Bỉ Ngạn</a>
+                                                                </h2>
+                                                                <div class="fw-400 fz-13 lh-14x mb-20 text-secondary text-overflow-3-lines pl-25 pr-25">
+                                                                    Trong vũ trụ bao la, một mảnh tinh hệ shệ shệ sinh diệt, cũng bất quá là sát na pha tạp lưu hệ sinh diệt, cũng bất quá là sát na pha tạp lưu inh diệt, cũng bất quá là sát na pha tạp lưu inh diệt, cũng bất quá là sát na pha tạp lưu quang. Ngắm nh...
+                                                                </div>
+                                                                <div class="mb-50">
+                                                                    <a href="">
+                                                                        <span class=" fz-13 text-primary border border-primary py-8 pr-25 pl-25">Đô
+                                                                            Thị</span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="swiper-slide bg-yelow-while">
+                                                        <div class="row">
+                                                            <div class="col l-12 w-100">
+                                                                <a href="" class="d-block w-100 mb-20">
+                                                                    <img class="w-150 h-auto mx-auto" src="./assets/images/150.jpg" alt="">
+                                                                </a>
+                                                                <h2 class="mb-20">
+                                                                    <a class="fw-600 fz-14 lh-14x " href="">Thâm Không
+                                                                        Bỉ Ngạn</a>
+                                                                </h2>
+                                                                <div class="fw-400 fz-13 lh-14x mb-20 text-secondary text-overflow-3-lines pl-25 pr-25">
+                                                                    Trong vũ trụ bao la, một mảnh tinh hệ shệ shệ sinh diệt, cũng bất quá là sát na pha tạp lưu hệ sinh diệt, cũng bất quá là sát na pha tạp lưu inh diệt, cũng bất quá là sát na pha tạp lưu inh diệt, cũng bất quá là sát na pha tạp lưu quang. Ngắm nh...
+                                                                </div>
+                                                                <div class="mb-50">
+                                                                    <a href="">
+                                                                        <span class=" fz-13 text-primary border border-primary py-8 pr-25 pl-25">Đô
+                                                                            Thị</span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="swiper-slide bg-yelow-while">
+                                                        <div class="row">
+                                                            <div class="col l-12 w-100">
+                                                                <a href="" class="d-block w-100 mb-20">
+                                                                    <img class="w-150 h-auto mx-auto" src="./assets/images/150.jpg" alt="">
+                                                                </a>
+                                                                <h2 class="mb-20">
+                                                                    <a class="fw-600 fz-14 lh-14x " href="">Thâm Không
+                                                                        Bỉ Ngạn</a>
+                                                                </h2>
+                                                                <div class="fw-400 fz-13 lh-14x mb-20 text-secondary text-overflow-3-lines pl-25 pr-25">
+                                                                    Trong vũ trụ bao la, một mảnh tinh hệ shệ shệ sinh diệt, cũng bất quá là sát na pha tạp lưu hệ sinh diệt, cũng bất quá là sát na pha tạp lưu inh diệt, cũng bất quá là sát na pha tạp lưu inh diệt, cũng bất quá là sát na pha tạp lưu quang. Ngắm nh...
+                                                                </div>
+                                                                <div class="mb-50">
+                                                                    <a href="">
+                                                                        <span class=" fz-13 text-primary border border-primary py-8 pr-25 pl-25">Đô
+                                                                            Thị</span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-button-prev fz-50 text-primary" style="background-image: none;"><i class="ti-angle-left"></i></div>
+                                                <div class="swiper-button-next fz-50 text-primary" style="background-image: none;"><i class="ti-angle-right"></i></div>
+
+                                            </div>
+                                        </div>
+                                        <div class="bookAuthor">
+                                            <div class="mb-3 border-bottom pb-15">
+                                                <h2 class="fz-14 fw-600 lh-14x">Truyện cùng tác giả</h2>
+                                            </div>
+                                            <ul class="bookAuthor-list">
+                                                <li class="bookAuthor-items mb-3">
+                                                    <a href="" class="d-flex">
+                                                        <div class="w-32 mr-3">
+                                                            <img src="./assets/images/150.jpg" class="w-100 shadow" alt="">
+                                                        </div>
+                                                        <div class="pt-">
+                                                            <h2 class="fz-12 text-black fw-500 mb-2 lh-14x">Vị Hôn Thê Của Ta Là Kiếm Thánh</h2>
+                                                            <div class="fz-12 text-secondary fw-500">
+                                                                <i class="ti-wallet"></i> Huyền Huyễn
+                                                            </div>
+                                                        </div>
+
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="detail_tabs-panes">
+                                <div class="row">
+                                    <div class="col l-8">
+                                        <div>
+                                            <div class="review-input-block mb-4">
+                                                <form action="">
+                                                    <textarea placeholder="Đánh giá của bạn về truyện này" class="form-control rounded-2 border-0 p-3" style="height: 100px;"></textarea>
+                                                    <button type="submit" class=" btn-submit bg-primary p-0 rounded-circle d-flex align-items-center justify-content-center text-white br-50">
+                                                        <i class="nh-icon rotate-75 ti-location-arrow"></i>
+                                                    </button>
+                                                </form>
+                                            </div>
+                                            <div class="comment">
+                                                <ul class="comment-list list-unstyled mt-3 mb-4 border-top">
+                                                    <li class="comment-items media py-3 border-bottom">
+                                                        <div class="nh-avatar nh-avatar--45 mr-3 position-relative" style="cursor: pointer;">
+                                                            <img alt="" class="img-fluid size-45" src="./assets/images/151.jpg">
+                                                            <span class="level px-1 py-0 small bg-primary rounded-3 text-white fw-500">Cấp 1</span>
+                                                        </div>
+                                                        <div class="media-body">
+                                                            <a href="" class="d-inline-block h5 mb-1 fz-14 fw-600">darkmager111</a>
+                                                            <div class="d-flex align-items-center">
+                                                                <span class="d-flex align-items-center text-tertiary fz-13">
+                                                                    <i class="nh-icon ti-timer mr-2 "></i> 2021-09-16 23:22:02
+                                                                </span>
+                                                            </div>
+                                                            <div class="mt-2 fz-13 fw-400 lh-15x text-black">Truyện xây dựng một thú vị, mục tiêu là phá cục tiệt giáo bị diệt vong. Truyện koncos vấn đề về bốn cục tình tiết mấy nói chung khá logic ổn bởi cốt truyện Hồng Hoang vốn bị cầy nát r. Điểm nhấn
+                                                                là sự hài hước nén giận của Thông Thiên khi đọc tâm của nv9 dẫn đến nét cười nhẹ nhàng cho người đọc khiến người đọc đôi khi nhập cảm với thông thiên khi cùng đọc tâm nv9. NV9 mắc một căn
+                                                                bệnh gọi là bệnh "bố láo". Chẳng biết mình là ai, chẳng coi ai ra gì. Nhiều lúc chính độc giả cũng muốn đập cho nó một trận. Về mặt tính cách, thái độ rất đáng ghét. Về mặt IQ tàm tạm hơi
+                                                                *** ***, dù đôi lúc khôn ra 1 tí cũng là nhờ tác giả thổi thêm đôi chút, còn đa phần là *** và lười ***.
+                                                            </div>
+                                                            <div class="d-flex mt-3">
+                                                                <div class="mr-auto">
+                                                                    <!---->
+                                                                </div>
+                                                                <button class=" btn-sm btn-white fz-14 fw-500 text-tertiary rounded-3 d-flex align-items-center px-3 mr-2">
+                                                                    <i class="nh-icon ti-thumb-up mr-2"></i>0
+                                                                </button>
+                                                                <button class="rep_comment btn-sm btn-white fz-14 fw-500 text-tertiary rounded-3 d-flex align-items-center px-3 mr-2 ">
+                                                                    <i class="nh-icon ti-share-alt mr-2"></i>
+                                                                    Trả lời
+                                                                </button>
+                                                                <button class=" btn-sm btn-white fz-14 fw-500 text-tertiary rounded-3 d-flex align-items-center px-3">
+                                                                     <i class="nh-icon ti-flag mr-2"></i>
+                                                                    Báo xấu
+                                                                </button>
+                                                                <!---->
+                                                            </div>
+                                                            <div class="rep-cmt-list">
+                                                                <ul class="list-unstyled mt-2 ">
+                                                                    <li class="media py-3 border-top">
+                                                                        <div class="nh-avatar nh-avatar--45 mr-3 position-relative" style="cursor: pointer;">
+                                                                            <img alt="" class="img-fluid size-45" src="./assets/images/100.jpg" lazy="loaded">
+                                                                            <span class="level px-1 py-0 small bg-primary rounded-3 text-white fw-500">
+                                                                            Cấp 4
+                                                                        </span>
+                                                                        </div>
+                                                                        <div class="media-body">
+                                                                            <a href="" class="d-inline-block fz-13 fw-600 mb-1 mr-2">kakingabc</a>
+                                                                            <span class="comment-body mt-2 fz-13 fw-400 lh-15x text-black">ta thấy đạo hữu khen
+                                                                            quá trời mà đánh giá 3,5 sao =))))) ta tưởng
+                                                                            3,5 sao là đạo hữu phải chê dữ lắm=)))))
+                                                                        </span>
+                                                                            <div class="d-flex mt-2">
+                                                                                <a class="fz-body text-tertiary d-flex align-items-center mr-4 fz-13">
+                                                                                    <i class="nh-icon ti-thumb-up mr-2 small"></i>
+                                                                                    <small>0</small>
+                                                                                </a>
+                                                                                <span class="d-flex align-items-center text-tertiary small fz-13">
+                                                                                <i class="nh-icon ti-timer mr-2"></i>2021-09-16 23:22:02
+                                                                            </span>
+                                                                                <a href="" class="fz-body text-tertiary d-flex align-items-center ml-auto pr-20 fz-13">
+                                                                                    <i class="nh-icon ti-flag small"></i>
+                                                                                </a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="media py-3 border-top">
+                                                                        <div class="nh-avatar nh-avatar--45 mr-3 position-relative" style="cursor: pointer;">
+                                                                            <img alt="" class="img-fluid size-45" src="./assets/images/100.jpg" lazy="loaded">
+                                                                            <span class="level px-1 py-0 small bg-primary rounded-3 text-white fw-500">
+                                                                            Cấp 4
+                                                                        </span>
+                                                                        </div>
+                                                                        <div class="media-body">
+                                                                            <a href="" class="d-inline-block fz-13 fw-600 mb-1 mr-2">kakingabc</a>
+                                                                            <span class="comment-body mt-2 fz-13 fw-400 lh-15x text-black">ta thấy đạo hữu khen
+                                                                            quá trời mà đánh giá 3,5 sao =))))) ta tưởng
+                                                                            3,5 sao là đạo hữu phải chê dữ lắm=)))))
+                                                                        </span>
+                                                                            <div class="d-flex mt-2">
+                                                                                <a class="fz-body text-tertiary d-flex align-items-center mr-4 fz-13">
+                                                                                    <i class="nh-icon ti-thumb-up mr-2 small"></i>
+                                                                                    <small>0</small>
+                                                                                </a>
+                                                                                <span class="d-flex align-items-center text-tertiary small fz-13">
+                                                                                <i class="nh-icon ti-timer mr-2"></i>2021-09-16 23:22:02
+                                                                            </span>
+                                                                                <a href="" class="fz-body text-tertiary d-flex align-items-center ml-auto pr-20 fz-13">
+                                                                                    <i class="nh-icon ti-flag small"></i>
+                                                                                </a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+
+                                                                    <!----><a class="remove_commet ml-2 fz-14 fw-600">Ẩn trả lời</a>
+                                                                </ul>
+                                                                <div id="showReplyForm" class="comment-form media p-2 mt-2">
+                                                                    <div class="nh-avatar nh-avatar--30 mr-2 mt-1 position-relative">
+                                                                        <img alt="" class="img-fluid size-30" src="./assets/images/150.jpg" lazy="loaded">
+                                                                    </div>
+                                                                    <div class="media-body comment-input-block position-relative">
+                                                                        <textarea placeholder="Nội dung trả lời" class="form-control bg-light pr-20" style="height: 60px;"></textarea>
+                                                                        <button class=" btn-submit bg-transparent text-primary d-flex align-items-center justify-content-center shadow-none px-2">
+                                                                        <i class="nh-icon rotate-135 ti-location-arrow fz-24"></i>
+                                                                    </button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="comment-items media py-3 border-bottom">
+                                                        <div class="nh-avatar nh-avatar--45 mr-3 position-relative" style="cursor: pointer;">
+                                                            <img alt="" class="img-fluid size-45" src="./assets/images/150.jpg">
+                                                            <span class="level px-1 py-0 small bg-primary rounded-3 text-white fw-500">Cấp 1</span>
+                                                        </div>
+                                                        <div class="media-body">
+                                                            <a href="" class="d-inline-block h5 mb-1 fz-14 fw-600">darkmager111</a>
+                                                            <div class="d-flex align-items-center">
+                                                                <span class="d-flex align-items-center text-tertiary fz-13">
+                                                                    <i class="nh-icon ti-timer mr-2 "></i> 2021-09-16 23:22:02
+                                                                </span>
+                                                            </div>
+                                                            <div class="mt-2 fz-13 fw-400 lh-15x text-black">Truyện xây dựng một thú vị, mục tiêu là phá cục tiệt giáo bị diệt vong. Truyện koncos vấn đề về bốn cục tình tiết mấy nói chung khá logic ổn bởi cốt truyện Hồng Hoang vốn bị cầy nát r. Điểm nhấn
+                                                                là sự hài hước nén giận của Thông Thiên khi đọc tâm của nv9 dẫn đến nét cười nhẹ nhàng cho người đọc khiến người đọc đôi khi nhập cảm với thông thiên khi cùng đọc tâm nv9. NV9 mắc một căn
+                                                                bệnh gọi là bệnh "bố láo". Chẳng biết mình là ai, chẳng coi ai ra gì. Nhiều lúc chính độc giả cũng muốn đập cho nó một trận. Về mặt tính cách, thái độ rất đáng ghét. Về mặt IQ tàm tạm hơi
+                                                                *** ***, dù đôi lúc khôn ra 1 tí cũng là nhờ tác giả thổi thêm đôi chút, còn đa phần là *** và lười ***.
+                                                            </div>
+                                                            <div class="d-flex mt-3">
+                                                                <div class="mr-auto">
+                                                                    <!---->
+                                                                </div>
+                                                                <button class=" btn-sm btn-white fz-14 fw-500 text-tertiary rounded-3 d-flex align-items-center px-3 mr-2">
+                                                                    <i class="nh-icon ti-thumb-up mr-2"></i>0
+                                                                </button>
+                                                                <button class="rep_comment btn-sm btn-white fz-14 fw-500 text-tertiary rounded-3 d-flex align-items-center px-3 mr-2">
+                                                                    <i class="nh-icon ti-share-alt mr-2"></i>
+                                                                    Trả lời
+                                                                </button>
+                                                                <button class=" btn-sm btn-white fz-14 fw-500 text-tertiary rounded-3 d-flex align-items-center px-3">
+                                                                     <i class="nh-icon ti-flag mr-2"></i>
+                                                                    Báo xấu
+                                                                </button>
+                                                                <!---->
+                                                            </div>
+                                                            <div class="rep-cmt-list">
+                                                                <ul class="list-unstyled mt-2 ">
+                                                                    <li class="media py-3 border-top">
+                                                                        <div class="nh-avatar nh-avatar--45 mr-3 position-relative" style="cursor: pointer;">
+                                                                            <img alt="" class="img-fluid size-45" src="./assets/images/100.jpg" lazy="loaded">
+                                                                            <span class="level px-1 py-0 small bg-primary rounded-3 text-white fw-500">
+                                                                            Cấp 4
+                                                                        </span>
+                                                                        </div>
+                                                                        <div class="media-body">
+                                                                            <a href="" class="d-inline-block fz-13 fw-600 mb-1 mr-2">kakingabc</a>
+                                                                            <span class="comment-body mt-2 fz-13 fw-400 lh-15x text-black">ta thấy đạo hữu khen
+                                                                            quá trời mà đánh giá 3,5 sao =))))) ta tưởng
+                                                                            3,5 sao là đạo hữu phải chê dữ lắm=)))))
+                                                                        </span>
+                                                                            <div class="d-flex mt-2">
+                                                                                <a class="fz-body text-tertiary d-flex align-items-center mr-4 fz-13">
+                                                                                    <i class="nh-icon ti-thumb-up mr-2 small"></i>
+                                                                                    <small>0</small>
+                                                                                </a>
+                                                                                <span class="d-flex align-items-center text-tertiary small fz-13">
+                                                                                <i class="nh-icon ti-timer mr-2"></i>2021-09-16 23:22:02
+                                                                            </span>
+                                                                                <a href="" class="fz-body text-tertiary d-flex align-items-center ml-auto pr-20 fz-13">
+                                                                                    <i class="nh-icon ti-flag small"></i>
+                                                                                </a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="media py-3 border-top">
+                                                                        <div class="nh-avatar nh-avatar--45 mr-3 position-relative" style="cursor: pointer;">
+                                                                            <img alt="" class="img-fluid" src="./assets/images/100.jpg" lazy="loaded">
+                                                                            <span class="level px-1 py-0 small bg-primary rounded-3 text-white fw-500">
+                                                                            Cấp 4
+                                                                        </span>
+                                                                        </div>
+                                                                        <div class="media-body">
+                                                                            <a href="" class="d-inline-block fz-13 fw-600 mb-1 mr-2">kakingabc</a>
+                                                                            <span class="comment-body mt-2 fz-13 fw-400 lh-15x text-black">ta thấy đạo hữu khen
+                                                                            quá trời mà đánh giá 3,5 sao =))))) ta tưởng
+                                                                            3,5 sao là đạo hữu phải chê dữ lắm=)))))
+                                                                        </span>
+                                                                            <div class="d-flex mt-2">
+                                                                                <a class="fz-body text-tertiary d-flex align-items-center mr-4 fz-13">
+                                                                                    <i class="nh-icon ti-thumb-up mr-2 small"></i>
+                                                                                    <small>0</small>
+                                                                                </a>
+                                                                                <span class="d-flex align-items-center text-tertiary small fz-13">
+                                                                                <i class="nh-icon ti-timer mr-2"></i>2021-09-16 23:22:02
+                                                                            </span>
+                                                                                <a href="" class="fz-body text-tertiary d-flex align-items-center ml-auto pr-20 fz-13">
+                                                                                    <i class="nh-icon ti-flag small"></i>
+                                                                                </a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+
+                                                                    <!----><a class="remove_commet ml-2 fz-14 fw-600">Ẩn trả lời</a>
+                                                                </ul>
+                                                                <div id="showReplyForm" class="comment-form media p-2 mt-2">
+                                                                    <div class="nh-avatar nh-avatar--30 mr-2 mt-1 position-relative">
+                                                                        <img alt="" class="img-fluid size-30" src="./assets/images/150.jpg" lazy="loaded">
+                                                                    </div>
+                                                                    <div class="media-body comment-input-block position-relative">
+                                                                        <textarea placeholder="Nội dung trả lời" class="form-control bg-light pr-20" style="height: 60px;"></textarea>
+                                                                        <button class=" btn-submit bg-transparent text-primary d-flex align-items-center justify-content-center shadow-none px-2">
+                                                                        <i class="nh-icon rotate-135 ti-location-arrow fz-24"></i>
+                                                                    </button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="comment-items media py-3 border-bottom">
+                                                        <div class="nh-avatar nh-avatar--45 mr-3 position-relative" style="cursor: pointer;">
+                                                            <img alt="" class="img-fluid size-45" src="./assets/images/150.jpg">
+                                                            <span class="level px-1 py-0 small bg-primary rounded-3 text-white fw-500">Cấp 1</span>
+                                                        </div>
+                                                        <div class="media-body">
+                                                            <a href="" class="d-inline-block h5 mb-1 fz-14 fw-600">darkmager111</a>
+                                                            <div class="d-flex align-items-center">
+                                                                <span class="d-flex align-items-center text-tertiary fz-13">
+                                                                    <i class="nh-icon ti-timer mr-2 "></i> 2021-09-16 23:22:02
+                                                                </span>
+                                                            </div>
+                                                            <div class="mt-2 fz-13 fw-400 lh-15x text-black">Truyện xây dựng một thú vị, mục tiêu là phá cục tiệt giáo bị diệt vong. Truyện koncos vấn đề về bốn cục tình tiết mấy nói chung khá logic ổn bởi cốt truyện Hồng Hoang vốn bị cầy nát r. Điểm nhấn
+                                                                là sự hài hước nén giận của Thông Thiên khi đọc tâm của nv9 dẫn đến nét cười nhẹ nhàng cho người đọc khiến người đọc đôi khi nhập cảm với thông thiên khi cùng đọc tâm nv9. NV9 mắc một căn
+                                                                bệnh gọi là bệnh "bố láo". Chẳng biết mình là ai, chẳng coi ai ra gì. Nhiều lúc chính độc giả cũng muốn đập cho nó một trận. Về mặt tính cách, thái độ rất đáng ghét. Về mặt IQ tàm tạm hơi
+                                                                *** ***, dù đôi lúc khôn ra 1 tí cũng là nhờ tác giả thổi thêm đôi chút, còn đa phần là *** và lười ***.
+                                                            </div>
+                                                            <div class="d-flex mt-3">
+                                                                <div class="mr-auto">
+                                                                    <!---->
+                                                                </div>
+                                                                <button class=" btn-sm btn-white fz-14 fw-500 text-tertiary rounded-3 d-flex align-items-center px-3 mr-2">
+                                                                    <i class="nh-icon ti-thumb-up mr-2"></i>0
+                                                                </button>
+                                                                <button class="rep_comment btn-sm btn-white fz-14 fw-500 text-tertiary rounded-3 d-flex align-items-center px-3 mr-2">
+                                                                    <i class="nh-icon ti-share-alt mr-2"></i>
+                                                                    Trả lời
+                                                                </button>
+                                                                <button class=" btn-sm btn-white fz-14 fw-500 text-tertiary rounded-3 d-flex align-items-center px-3">
+                                                                     <i class="nh-icon ti-flag mr-2"></i>
+                                                                    Báo xấu
+                                                                </button>
+                                                                <!---->
+                                                            </div>
+                                                            <div class="rep-cmt-list">
+                                                                <ul class="list-unstyled mt-2 ">
+
+
+                                                                    <!----><a class="remove_commet ml-2 fz-14 fw-600">Ẩn trả lời</a>
+                                                                </ul>
+                                                                <div id="showReplyForm" class="comment-form media p-2 mt-2">
+                                                                    <div class="nh-avatar nh-avatar--30 mr-2 mt-1 position-relative">
+                                                                        <img alt="" class="img-fluid size-30" src="./assets/images/150.jpg" lazy="loaded">
+                                                                    </div>
+                                                                    <div class="media-body comment-input-block position-relative">
+                                                                        <textarea placeholder="Nội dung trả lời" class="form-control bg-light pr-20" style="height: 60px;"></textarea>
+                                                                        <button class=" btn-submit bg-transparent text-primary d-flex align-items-center justify-content-center shadow-none px-2">
+                                                                        <i class="nh-icon rotate-135 ti-location-arrow fz-24"></i>
+                                                                    </button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col l-4">
+                                        <div class="bg-yelow-while br-5 pl-25 pr-25 pb-25 pt-25">
+                                            <div class="fz-14 fw-600 mb-4">Lưu ý khi đánh giá</div>
+                                            <p class="fz-13 fw-400 text-primary lh-14x mb-3">1. Không được dẫn link hoặc nhắc đến website khác</p>
+                                            <p class="fz-13 fw-400 text-primary lh-14x mb-3">2. Không được có những từ ngữ gay gắt, đả kích, xúc phạm người khác</p>
+                                            <p class="fz-13 fw-400 text-primary lh-14x mb-3">3. Đánh giá hoặc bình luận không liên quan tới truyện sẽ bị xóa</p>
+                                            <p class="fz-13 fw-400 text-primary lh-14x mb-3">4. Đánh giá hoặc bình luận chê truyện một cách chung chung không mang lại giá trị cho người đọc sẽ bị xóa</p>
+                                            <p class="fz-13 fw-400 text-primary lh-14x mb-3">5. Đánh giá có điểm số sai lệch với nội dung sẽ bị xóa</p>
+                                            <p class="fz-13 fw-400 text-primary lh-14x mb-3"><em>Vui lòng xem và tuân
+                                                    theo đầy đủ các quy định tại Điều Khoản Dịch Vụ khi sử dụng
+                                                    website</em></p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="detail_tabs-panes">
+                                <div class="chapter-list">
+                                    <div class="d-flex mb-3 lh-15">
+                                        <h2 class="fw-500 fz-16 ">Danh sách chương</h2>
+                                    </div>
+                                    <div class="chapter-items">
+                                        <div class="row">
+                                            <div class="col l-4 m-6 c-12 border-bottom-dashed pt-1 pb-1">
+                                                <a href="" class="chapter-link d-block fz-13 fw-400 lh-14x text-secondary pt-1 pb-1 pr-10 pl-10">
+                                                    Chương 01: Phong yêu 
+                                                </a>
+                                            </div>
+                                            <div class="col l-4 m-6 c-12 border-bottom-dashed pt-1 pb-1">
+                                                <a href="" class="chapter-link d-block fz-13 fw-400 lh-14x text-secondary pt-1 pb-1 pr-10 pl-10">
+                                                    Chương 02: Phong yêu 
+                                                </a>
+                                            </div>
+                                            <div class="col l-4 m-6 c-12 border-bottom-dashed pt-1 pb-1">
+                                                <a href="" class="chapter-link d-block fz-13 fw-400 lh-14x text-secondary pt-1 pb-1 pr-10 pl-10">
+                                                    Chương 03: Phong yêu 
+                                                </a>
+                                            </div>
+                                            <div class="col l-4 m-6 c-12 border-bottom-dashed pt-1 pb-1">
+                                                <a href="" class="chapter-link d-block fz-13 fw-400 lh-14x text-secondary pt-1 pb-1 pr-10 pl-10">
+                                                    Chương 04: Phong yêu 
+                                                </a>
+                                            </div>
+                                            <div class="col l-4 m-6 c-12 border-bottom-dashed pt-1 pb-1">
+                                                <a href="" class="chapter-link d-block fz-13 fw-400 lh-14x text-secondary pt-1 pb-1 pr-10 pl-10">
+                                                    Chương 05: Phong yêu 
+                                                </a>
+                                            </div>
+                                            <div class="col l-4 m-6 c-12 border-bottom-dashed pt-1 pb-1">
+                                                <a href="" class="chapter-link d-block fz-13 fw-400 lh-14x text-secondary pt-1 pb-1 pr-10 pl-10">
+                                                    Chương 06: Phong yêu 
+                                                </a>
+                                            </div>
+                                            <div class="col l-4 m-6 c-12 border-bottom-dashed pt-1 pb-1">
+                                                <a href="" class="chapter-link d-block fz-13 fw-400 lh-14x text-secondary pt-1 pb-1 pr-10 pl-10">
+                                                    Chương 07: Phong yêu 
+                                                </a>
+                                            </div>
+                                            <div class="col l-4 m-6 c-12 border-bottom-dashed pt-1 pb-1">
+                                                <a href="" class="chapter-link d-block fz-13 fw-400 lh-14x text-secondary pt-1 pb-1 pr-10 pl-10">
+                                                    Chương 08: Phong yêu 
+                                                </a>
+                                            </div>
+                                            <div class="col l-4 m-6 c-12 border-bottom-dashed pt-1 pb-1">
+                                                <a href="" class="chapter-link d-block fz-13 fw-400 lh-14x text-secondary pt-1 pb-1 pr-10 pl-10">
+                                                    Chương 09: Phong yêu 
+                                                </a>
+                                            </div>
+                                            <div class="col l-4 m-6 c-12 border-bottom-dashed pt-1 pb-1">
+                                                <a href="" class="chapter-link d-block fz-13 fw-400 lh-14x text-secondary pt-1 pb-1 pr-10 pl-10">
+                                                    Chương 10: Phong yêu 
+                                                </a>
+                                            </div>
+                                            <div class="col l-4 m-6 c-12 border-bottom-dashed pt-1 pb-1">
+                                                <a href="" class="chapter-link d-block fz-13 fw-400 lh-14x text-secondary pt-1 pb-1 pr-10 pl-10">
+                                                    Chương 11: Phong yêu 
+                                                </a>
+                                            </div>
+                                            <div class="col l-4 m-6 c-12 border-bottom-dashed pt-1 pb-1">
+                                                <a href="" class="chapter-link d-block fz-13 fw-400 lh-14x text-secondary pt-1 pb-1 pr-10 pl-10">
+                                                    Chương 12: Phong yêu 
+                                                </a>
+                                            </div>
+                                            <div class="col l-4 m-6 c-12 border-bottom-dashed pt-1 pb-1">
+                                                <a href="" class="chapter-link d-block fz-13 fw-400 lh-14x text-secondary pt-1 pb-1 pr-10 pl-10">
+                                                    Chương 13: Phong yêu 
+                                                </a>
+                                            </div>
+                                            <div class="col l-4 m-6 c-12 border-bottom-dashed pt-1 pb-1">
+                                                <a href="" class="chapter-link d-block fz-13 fw-400 lh-14x text-secondary pt-1 pb-1 pr-10 pl-10">
+                                                    Chương 01: Phong yêu 
+                                                </a>
+                                            </div>
+                                            <div class="col l-4 m-6 c-12 border-bottom-dashed pt-1 pb-1">
+                                                <a href="" class="chapter-link d-block fz-13 fw-400 lh-14x text-secondary pt-1 pb-1 pr-10 pl-10">
+                                                    Chương 01: Phong yêu 
+                                                </a>
+                                            </div>
+                                            <div class="col l-4 m-6 c-12 border-bottom-dashed pt-1 pb-1">
+                                                <a href="" class="chapter-link d-block fz-13 fw-400 lh-14x text-secondary pt-1 pb-1 pr-10 pl-10">
+                                                    Chương 01: Phong yêu 
+                                                </a>
+                                            </div>
+                                            <div class="col l-4 m-6 c-12 border-bottom-dashed pt-1 pb-1">
+                                                <a href="" class="chapter-link d-block fz-13 fw-400 lh-14x text-secondary pt-1 pb-1 pr-10 pl-10">
+                                                    Chương 01: Phong yêu 
+                                                </a>
+                                            </div>
+                                            <div class="col l-4 m-6 c-12 border-bottom-dashed pt-1 pb-1">
+                                                <a href="" class="chapter-link d-block fz-13 fw-400 lh-14x text-secondary pt-1 pb-1 pr-10 pl-10">
+                                                    Chương 01: Phong yêu 
+                                                </a>
+                                            </div>
+                                            <div class="col l-4 m-6 c-12 border-bottom-dashed pt-1 pb-1">
+                                                <a href="" class="chapter-link d-block fz-13 fw-400 lh-14x text-secondary pt-1 pb-1 pr-10 pl-10">
+                                                    Chương 01: Phong yêu 
+                                                </a>
+                                            </div>
+                                            <div class="col l-4 m-6 c-12 border-bottom-dashed pt-1 pb-1">
+                                                <a href="" class="chapter-link d-block fz-13 fw-400 lh-14x text-secondary pt-1 pb-1 pr-10 pl-10">
+                                                    Chương 01: Phong yêu 
+                                                </a>
+                                            </div>
+                                            <div class="col l-4 m-6 c-12 border-bottom-dashed pt-1 pb-1">
+                                                <a href="" class="chapter-link d-block fz-13 fw-400 lh-14x text-secondary pt-1 pb-1 pr-10 pl-10">
+                                                    Chương 01: Phong yêu 
+                                                </a>
+                                            </div>
+                                            <div class="col l-4 m-6 c-12 border-bottom-dashed pt-1 pb-1">
+                                                <a href="" class="chapter-link d-block fz-13 fw-400 lh-14x text-secondary pt-1 pb-1 pr-10 pl-10">
+                                                    Chương 01: Phong yêu 
+                                                </a>
+                                            </div>
+                                            <div class="col l-4 m-6 c-12 border-bottom-dashed pt-1 pb-1">
+                                                <a href="" class="chapter-link d-block fz-13 fw-400 lh-14x text-secondary pt-1 pb-1 pr-10 pl-10">
+                                                    Chương 01: Phong yêu 
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+        </main>
+        <footer class="footer text-center" style="background: url('./assets/images/footer-bg.jpg') no-repeat; background-size: 100% 100%;">
+            <div class="grid wide footer-body">
+                <div class="footer-desc">
+                    Mê Truyện Chữ là nền tảng mở trực tuyến, miễn phí đọc truyện chữ được convert hoặc dịch kỹ lưỡng, do các converter và dịch giả đóng góp, rất nhiều truyện hay và nổi bật được cập nhật nhanh nhất với đủ các thể loại tiên hiệp, kiếm hiệp, huyền ảo ...
+                </div>
+                <div class="footer-logo">
+                    <a href="" class="logo-link">
+                        <img src="./assets/images/logo.png" alt="">
+                    </a>
+                </div>
+                <div>
+                    <ul class="list-unstyled row">
+                        <li class="col m-3 c-6"><a href="">Điều khoản dịch vụ</a></li>
+                        <li class="col m-3 c-6"><a href="">Điều khoản dịch vụ</a></li>
+                        <li class="col m-3 c-6"><a href="">Điều khoản dịch vụ</a></li>
+                        <li class="col m-3 c-6"><a href="">Điều khoản dịch vụ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <div class="modal-content modal-menu-mobile" id="menu-mobile">
+            <div class="modal-menu-mobile__header ">
+                <div class="modal-menu-mobile__header-title ">Menu</div>
+                <div class="modal-menu-mobile__header-close modal-close "><i class="ti-close " onclick="close_menu_btn()"></i></div>
+            </div>
+            <div class="modal-menu-mobile__content ">
+                <div class="modal-menu-mobile__content-wrap ">
+                    <ul class="modal-menu-mobile__list ">
+                        <li class="modal-menu-mobile__list-items  ">
+                            <a href="/ " class="modal-menu-mobile__list-items-link "><i class="ti-bookmark"></i>Tủ
+                                truyện</a>
+                        </li>
+                        <li class="modal-menu-mobile__list-items  ">
+                            <a href="/ " class="modal-menu-mobile__list-items-link "><i
+                                    class="ti-location-arrow"></i>Đăng truyện</a>
+                        </li>
+                        <li class="modal-menu-mobile__list-items ">
+                            <a class="modal-menu-mobile__list-items-link "><i class="ti-pulse"></i>Thể loại</a>
+                            <label for="modal-menu-mobile__submenu-checkbox " class="modal-menu-mobile__list-items-icon ">
+                                <i onclick="ti_plus1()" id="ti_plus"
+                                    class="ti-angle-down modal-menu-mobile__list-items-icon-plus "></i>
+                            </label>
+                            <ul id="category_1" class="modal-menu-mobile__submenu-list ">
+                                <li class="modal-menu-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-menu-mobile__submenu-list-items-link ">Tất cả</a>
+                                </li>
+                                <li class="modal-menu-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-menu-mobile__submenu-list-items-link ">Huyền Huyễn</a>
+                                </li>
+                                <li class="modal-menu-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-menu-mobile__submenu-list-items-link ">Võng Du</a>
+                                </li>
+                                <li class="modal-menu-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-menu-mobile__submenu-list-items-link ">Đồng Nhân</a>
+                                </li>
+                                <li class="modal-menu-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-menu-mobile__submenu-list-items-link ">Cạnh Kỹ</a>
+                                </li>
+                                <li class="modal-menu-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-menu-mobile__submenu-list-items-link ">Kiếm Hiệp</a>
+                                </li>
+                                <li class="modal-menu-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-menu-mobile__submenu-list-items-link ">Tiên Hiệp</a>
+                                </li>
+                                <li class="modal-menu-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-menu-mobile__submenu-list-items-link ">Khoa Huyễn</a>
+                                </li>
+                                <li class="modal-menu-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-menu-mobile__submenu-list-items-link ">Đô thị</a>
+                                </li>
+                                <li class="modal-menu-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-menu-mobile__submenu-list-items-link ">Lịch Sử</a>
+                                </li>
+                                <li class="modal-menu-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-menu-mobile__submenu-list-items-link ">Huyền Nghi</a>
+                                </li>
+                                <li class="modal-menu-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-menu-mobile__submenu-list-items-link ">Kỳ Ảo</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="modal-menu-mobile__list-items ">
+                            <a href="./rankings.html " class="modal-menu-mobile__list-items-link "><i
+                                    class="ti-stats-up"></i>Bảng xếp hạng</a>
+                            <label for="modal-menu-mobile__submenu-checkbox " class="modal-menu-mobile__list-items-icon ">
+                                <i onclick="ti_plus2()" id="ti_plus2"
+                                    class="ti-angle-down modal-menu-mobile__list-items-icon-plus "></i>
+                            </label>
+                            <ul id="tbl_rank" class="modal-menu-mobile__submenu-list ">
+                                <li class="modal-menu-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-menu-mobile__submenu-list-items-link ">Thịnh Hành</a>
+                                </li>
+                                <li class="modal-menu-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-menu-mobile__submenu-list-items-link ">Đọc Nhiều</a>
+                                </li>
+                                <li class="modal-menu-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-menu-mobile__submenu-list-items-link ">Tặng Thưởng</a>
+                                </li>
+                                <li class="modal-menu-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-menu-mobile__submenu-list-items-link ">Đề Cử</a>
+                                </li>
+                                <li class="modal-menu-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-menu-mobile__submenu-list-items-link ">Yêu Thích</a>
+                                </li>
+                                <li class="modal-menu-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-menu-mobile__submenu-list-items-link ">Thảo Luận</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="modal-menu-mobile__list-items ">
+                            <a class="modal-menu-mobile__list-items-link btn-modal-active " data-modal="auth ">
+                                <i class="ti-user "></i>Cá nhân
+                            </a>
+                            <label for="modal-menu-mobile__submenu-checkbox " class="modal-menu-mobile__list-items-icon ">
+                                <i onclick="ti_plus3()" id="ti_plus3"
+                                    class="ti-angle-down modal-menu-mobile__list-items-icon-plus "></i>
+                            </label>
+                            <ul id="profile" class="modal-menu-mobile__submenu-list ">
+                                <li class="modal-menu-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-menu-mobile__submenu-list-items-link ">Đăng Nhập</a>
+                                </li>
+                                <li class="modal-menu-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-menu-mobile__submenu-list-items-link ">Đăng Ký</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="modal-content modal-panel-mobile" id="panel-mobile">
+            <div class="modal-panel-mobile__header ">
+                <div class="modal-panel-mobile__header-title ">Bộ Lọc</div>
+                <div class="modal-panel-mobile__header-close modal-close "><i class="ti-close " onclick="close_panel_btn()"></i></div>
+            </div>
+            <div class="modal-panel-mobile__content ">
+                <div class="modal-panel-mobile__content-wrap ">
+                    <ul class="modal-panel-mobile__list ">
+                        <li class="modal-panel-mobile__list-items ">
+                            <a class="modal-panel-mobile__list-items-link "><i class="ti-pulse"></i>Thể loại</a>
+                            <label for="modal-panel-mobile__submenu-checkbox " class="modal-panel-mobile__list-items-icon ">
+                                <i onclick="ti_panel_1()" id="ti_panel_1"
+                                    class="ti-angle-down modal-panel-mobile__list-items-icon-plus "></i>
+                            </label>
+                            <ul id="ti_panel_1_1" class="modal-panel-mobile__submenu-list ">
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Tất cả</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Huyền Huyễn</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Võng Du</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Đồng Nhân</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Cạnh Kỹ</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Kiếm Hiệp</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Tiên Hiệp</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Khoa Huyễn</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Đô thị</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Lịch Sử</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Huyền Nghi</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Kỳ Ảo</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="modal-panel-mobile__list-items ">
+                            <a class="modal-panel-mobile__list-items-link "><i class="ti-comments-smiley"></i>Tình
+                                Trạng</a>
+                            <label for="modal-panel-mobile__submenu-checkbox " class="modal-panel-mobile__list-items-icon ">
+                                <i onclick="ti_panel_2()" id="ti_panel_2"
+                                    class="ti-angle-down modal-panel-mobile__list-items-icon-plus "></i>
+                            </label>
+                            <ul id="ti_panel_2_1" class="modal-panel-mobile__submenu-list ">
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Toàn Bộ</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Đang Ra</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Hoàn Thành</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="modal-panel-mobile__list-items ">
+                            <a class="modal-panel-mobile__list-items-link "><i class="ti-face-smile"></i>Thuộc Tính</a>
+                            <label for="modal-panel-mobile__submenu-checkbox " class="modal-panel-mobile__list-items-icon ">
+                                <i onclick="ti_panel_3()" id="ti_panel_3"
+                                    class="ti-angle-down modal-panel-mobile__list-items-icon-plus "></i>
+                            </label>
+                            <ul id="ti_panel_3_1" class="modal-panel-mobile__submenu-list">
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Toàn Bộ</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Chọn Lọc</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Chất Lượng Cao</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="modal-panel-mobile__list-items ">
+                            <a class="modal-panel-mobile__list-items-link "><i class="ti-face-sad"></i>Tính Cách Nhân
+                                Vật</a>
+                            <label for="modal-panel-mobile__submenu-checkbox " class="modal-panel-mobile__list-items-icon ">
+                                <i onclick="ti_panel_4()" id="ti_panel_4"
+                                    class="ti-angle-down modal-panel-mobile__list-items-icon-plus "></i>
+                            </label>
+                            <ul id="ti_panel_4_1" class="modal-panel-mobile__submenu-list ">
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Điềm Đạm</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Nhiệt Huyết </a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Vô Sỉ</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Nhẹ Nhàng</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Thiết Huyết </a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Cơ Trí</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Lãnh Khốc</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Kiêu Ngạo </a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Ngu Ngốc</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Giảo Hoạt</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="modal-panel-mobile__list-items ">
+                            <a class="modal-panel-mobile__list-items-link "><i class="ti-map"></i>Bối Cảnh Thế Giới</a>
+                            <label for="modal-panel-mobile__submenu-checkbox " class="modal-panel-mobile__list-items-icon ">
+                                <i onclick="ti_panel_5()" id="ti_panel_5"
+                                    class="ti-angle-down modal-panel-mobile__list-items-icon-plus "></i>
+                            </label>
+                            <ul id="ti_panel_5_1" class="modal-panel-mobile__submenu-list ">
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Điềm Đạm</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Nhiệt Huyết </a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Vô Sỉ</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Nhẹ Nhàng</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Thiết Huyết </a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Cơ Trí</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Lãnh Khốc</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Kiêu Ngạo </a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Ngu Ngốc</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Giảo Hoạt</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="modal-panel-mobile__list-items ">
+                            <a class="modal-panel-mobile__list-items-link "><i class="ti-cloud"></i>Lưu Phái</a>
+                            <label for="modal-panel-mobile__submenu-checkbox " class="modal-panel-mobile__list-items-icon ">
+                                <i onclick="ti_panel_6()" id="ti_panel_6"
+                                    class="ti-angle-down modal-panel-mobile__list-items-icon-plus "></i>
+                            </label>
+                            <ul id="ti_panel_6_1" class="modal-panel-mobile__submenu-list ">
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Điềm Đạm</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Nhiệt Huyết </a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Vô Sỉ</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Nhẹ Nhàng</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Thiết Huyết </a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Cơ Trí</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Lãnh Khốc</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Kiêu Ngạo </a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Ngu Ngốc</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Giảo Hoạt</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="modal-panel-mobile__list-items ">
+                            <a class="modal-panel-mobile__list-items-link "><i class="ti-eye"></i>Thị Giác</a>
+                            <label for="modal-panel-mobile__submenu-checkbox " class="modal-panel-mobile__list-items-icon ">
+                                <i onclick="ti_panel_7()" id="ti_panel_7"
+                                    class="ti-angle-down modal-panel-mobile__list-items-icon-plus "></i>
+                            </label>
+                            <ul id="ti_panel_7_1" class="modal-panel-mobile__submenu-list ">
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Điềm Đạm</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Nhiệt Huyết </a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Vô Sỉ</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Nhẹ Nhàng</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Thiết Huyết </a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Cơ Trí</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Lãnh Khốc</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Kiêu Ngạo </a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Ngu Ngốc</a>
+                                </li>
+                                <li class="modal-panel-mobile__submenu-list-items ">
+                                    <a href="#" class="modal-panel-mobile__submenu-list-items-link ">Giảo Hoạt</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--  modal-cart--active -->
+
+        </div>
+        <script src='./assets/js/swiper.min.js'></script>
+        <script src="./assets/js/swiper-bundle.min.js"></script>
+
+        <script src="./assets/js/slider.js"></script>
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                slidesPerView: 1,
+                spaceBetween: 30,
+                loop: true,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                autoplay: {
+                    delay: 5000,
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                }
+            });
+        </script>
+        <script src="./assets/js/detail.js"></script>
+
+        <script src="./assets/js/main.js"></script>
+
+</body>
+
+</html>
